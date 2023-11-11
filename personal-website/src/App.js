@@ -1,4 +1,5 @@
 import './App.css';
+import GetInTouch from './component/GetInTouch';
 import Intro from './component/Intro';
 import Navbar from './component/Navbar';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Intro />
-    </div>
+      <GetInTouch />
+    </div> 
   );
 }
 
