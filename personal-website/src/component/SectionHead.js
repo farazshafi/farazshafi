@@ -1,13 +1,15 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 
-const SectionHead = () => {
+const SectionHead = ({text,center}) => {
     return (
         <Box
             mt={{ base: "25px", md: "", lg: "80px" }}
             pl={{ base: "10px", md: "70px", lg: "123px" }}
             pr={{ base: "10px", md: "70px", lg: "123px" }}
-            mb={{ base: "20px", md: "", lg: "40px" }}
+            mb={{ base: "20px", md: "30px", lg: "40px" }}
+            display={"flex"}
+            style={{alignItems:center ? "center" : "none",justifyContent: center ? "center" : "none"}} 
         >
             <Box
                 pt={{ lg: "15px", base: "6px", }}
@@ -15,7 +17,7 @@ const SectionHead = () => {
                 pr={{ lg: "15px", base: "8px", }}
                 border={"2px solid"}
                 color={'black'}
-                width={{ lg: "237px", base: "80px", md: "125px" }}
+                width={"auto"}
                 height={{ lg: "75px", base: "27px", md: "35px" }}
             >
                 <Text
@@ -23,7 +25,7 @@ const SectionHead = () => {
                     color={"black"}
                     fontSize={{ lg: "40px", base: "12px", md: "20px" }}
                 >
-                    WHO IS ME ?
+                    {text}
                 </Text>
             </Box>
         </Box>
