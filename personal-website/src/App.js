@@ -31,33 +31,32 @@ function App() {
         justifyContent={"center"}
       >
         <Box
-          width={{lg:"275px",base:"110px"}}
+          width={{ lg: "275px", base: "110px" ,md:"170px"}}
         >
           <Image
             src={profile}
-          // boxsize="275px"
           />
         </Box>
       </Box>
       <Box
         pl={{ lg: "123px" }}
         pr={{ lg: "123px" }}
-        mt={{ lg: "-137.5px",base:"-54.5px" }}
+        mt={{ lg: "-137.5px", base: "-54.5px",md:"-83.5px" }}
       >
         <Box
           bgColor={"#164863"}
-          pl={{ lg: "117px",base:"40px" }}
+          pl={{ lg: "117px", base: "40px", md:"80px" }}
           pb={{ lg: "40px" }}
-          pr={{ lg: "117px",base:"40px" }}
+          pr={{ lg: "117px", base: "40px", md:"80px" }}
         >
           <Box
             textAlign={"center"}
-            pt={{ lg: "155px",base:"60px" }}
-            mb={{ lg: "25px" }}
+            pt={{ lg: "155px", base: "60px" ,md:"90px"}}
+            mb={{ lg: "25px", base: "10px" }}
           >
             <Text
               fontFamily={"Poppins"}
-              fontSize={{ lg: "30px",base:"15" }}
+              fontSize={{ lg: "30px", base: "15",md:"20px" }}
               color={"white"}
               fontWeight={800}
             >
@@ -65,7 +64,7 @@ function App() {
             </Text>
             <Text
               fontFamily={"Poppins"}
-              fontSize={{ lg: "25px",base:"10px" }}
+              fontSize={{ lg: "25px", base: "10px" ,md:"13px"}}
               color={"white"}
             >
               Full stack Developer
@@ -74,21 +73,21 @@ function App() {
           {/* about div */}
           <Box
             bgColor={"white"}
-            borderRadius={{lg:"45px",base:"17px"}}
-            pt={{ lg: "35px",base:"10px" }}
-            pb={{ lg: "35px",base:"10px" }}
-            pr={{ lg: "33px",base:"10px" }}
-            pl={{ lg: "33px",base:"10px" }}
+            borderRadius={{ lg: "45px", base: "17px" }}
+            pt={{ lg: "35px", base: "10px" }}
+            pb={{ lg: "35px", base: "10px" }}
+            pr={{ lg: "33px", base: "10px" }}
+            pl={{ lg: "33px", base: "10px" }}
           >
             <Text
               fontFamily={"Timmana"}
-              fontSize={{ lg: "50px",base:"13px" }}
+              fontSize={{ lg: "45px", base: "13px",md:"20px" }}
             >
               ABOUT
             </Text>
             <Text
               fontFamily={"Sniglet"}
-              fontSize={{ lg: "25px",base:"8px" }}
+              fontSize={{ lg: "20px", base: "8px" , md:"12px"}}
             >
               I'm a self-taught MERN web developer passionate about crafting userfriendly web applications. With a focus on clean, efficient code and a commitment to staying current with industry trends, I thrive in collaborative environments. My goal is to contribute my expertise to innovative projects and help businesses succeed in the digital world.
             </Text>
@@ -97,15 +96,15 @@ function App() {
             display={"flex"}
             alignItems={"center"}
             justifyContent={"center"}
-            mt={{ lg: "25px" }}
+            mt={{ lg: "25px", base: "10px" }}
           >
-          {/* details */}
+            {/* details */}
             <Box>
               <Stack>
                 {/* number */}
                 <Box>
                   <Flex mb={2}>
-                    <InputGroup>
+                    <InputGroup width={{ base: "215px",lg:"400px",md:"300px" }} size={{base:"xs",md:"md",lg:"lg"}}>
                       <InputLeftAddon children='+91' />
                       <Input
                         color={'white'}
@@ -130,51 +129,55 @@ function App() {
                 {/* email */}
                 <Box>
                   <Flex mb={2}>
-                    <Input
-                      color={'white'}
-                      value={emailValue}
-                      readOnly // Make the input read-only
-                    />
-                    <Box
-                      ml={"3px"}
-                      display={'flex'}
-                      alignItems={'center'}
-                      justifyContent={'center'}
-                      bgColor={'white'}
-                      width={'45px'}
-                      borderRadius={5}
-                    >
-                      <i style={{ fontSize: '20px', textAlign: 'center' }} onClick={onCopyEmail} className={hasCopiedEmail ? 'fa-solid fa-copy' : 'fa-regular fa-copy'}></i>
-                    </Box>
+                    <InputGroup width={{ base: "215px",lg:"400px",md:"300px" }} size={{base:"xs",md:"md",lg:"lg"}}>
+                      <Input
+                        color={'white'}
+                        value={emailValue}
+                        readOnly // Make the input read-only
+                      />
+                      <Box
+                        ml={"3px"}
+                        display={'flex'}
+                        alignItems={'center'}
+                        justifyContent={'center'}
+                        bgColor={'white'}
+                        width={'45px'}
+                        borderRadius={5}
+                      >
+                        <i style={{ fontSize: '20px', textAlign: 'center' }} onClick={onCopyEmail} className={hasCopiedEmail ? 'fa-solid fa-copy' : 'fa-regular fa-copy'}></i>
+                      </Box>
+                    </InputGroup>
                   </Flex>
                 </Box>
                 {/* location */}
                 <Box>
                   <Flex mb={2}>
-                    <Input
-                      color={'white'}
-                      value={locationValue}
-                      readOnly // Make the input read-only
-                    />
-                    <Box
-                      ml={"3px"}
-                      display={'flex'}
-                      alignItems={'center'}
-                      justifyContent={'center'}
-                      bgColor={'white'}
-                      width={'45px'}
-                      borderRadius={5}
-                    >
-                      <i style={{ fontSize: '20px', textAlign: 'center' }} onClick={onCopyLocation} className={hasCopiedLocation ? 'fa-solid fa-copy' : 'fa-regular fa-copy'}></i>
-                    </Box>
+                    <InputGroup width={{ base: "215px",lg:"400px",md:"300px" }} size={{base:"xs",md:"md",lg:"lg"}}>
+                      <Input
+                        color={'white'}
+                        value={locationValue}
+                        readOnly // Make the input read-only
+                      />
+                      <Box
+                        ml={"3px"}
+                        display={'flex'}
+                        alignItems={'center'}
+                        justifyContent={'center'}
+                        bgColor={'white'}
+                        width={'45px'}
+                        borderRadius={5}
+                      >
+                        <i style={{ fontSize: '20px', textAlign: 'center' }} onClick={onCopyLocation} className={hasCopiedLocation ? 'fa-solid fa-copy' : 'fa-regular fa-copy'}></i>
+                      </Box>
+                    </InputGroup>
                   </Flex>
                 </Box>
               </Stack>
             </Box>
           </Box>
         </Box>
-      </Box>
-    </div>
+      </Box >
+    </div >
   );
 }
 

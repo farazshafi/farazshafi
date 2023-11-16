@@ -15,7 +15,7 @@ const SectionHead = () => {
                 pr={{ lg: "15px", base: "8px", }}
                 border={"2px solid"}
                 color={'black'}
-                width={{ lg: "232px", base: "80px", md: "119px" }}
+                width={{ lg: "237px", base: "80px", md: "125px" }}
                 height={{ lg: "75px", base: "27px", md: "35px" }}
             >
                 <Text
