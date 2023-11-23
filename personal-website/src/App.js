@@ -6,6 +6,7 @@ import Intro from './component/Intro';
 import Navbar from './component/Navbar';
 import SectionHead from './component/SectionHead';
 import Projects from './component/Projects';
+import SideProject from './component/SideProject';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <GetInTouch />
       <About />
       <Projects />
+      <SideProject />
     </div>
   );
 }

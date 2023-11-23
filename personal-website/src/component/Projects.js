@@ -516,9 +516,8 @@ const Projects = () => {
                             bgColor={"black"}
                             width={"100%"}
                             height={{ lg: "5px", base: "3px" }}
-                            mb={"10px"}
+                        // mb={"10px"}
                         >
-
                         </Box>
                     </Row>
                 </Box>
