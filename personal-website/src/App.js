@@ -7,6 +7,7 @@ import Navbar from './component/Navbar';
 import SectionHead from './component/SectionHead';
 import Projects from './component/Projects';
 import SideProject from './component/SideProject';
+import Skills from './component/Skills';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Projects />
       <SideProject />
+      <Skills />
     </div>
   );
 }
