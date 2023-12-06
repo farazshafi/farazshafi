@@ -5,16 +5,16 @@ const SectionHead = ({text,center}) => {
     return (
         <Box
             mt={{ base: "25px", md: "", lg: "80px" }}
-            pl={{ base: "10px", md: "70px", lg: "123px" }}
-            pr={{ base: "10px", md: "70px", lg: "123px" }}
+            pl={"5%"}
+            pr={"5%"}
             mb={{ base: "20px", md: "30px", lg: "40px" }}
             display={"flex"}
             style={{alignItems:center ? "center" : "none",justifyContent: center ? "center" : "none"}} 
         >
             <Box
                 pt={{ lg: "15px", base: "6px", }}
-                pl={{ lg: "15px", base: "8px", }}
-                pr={{ lg: "15px", base: "8px", }}
+                pl={{ lg: "15px",md:"11px" , base: "8px", }}
+                pr={{ lg: "15px",md:"11px" , base: "8px", }}
                 border={"2px solid"}
                 color={'black'}
                 width={"auto"}

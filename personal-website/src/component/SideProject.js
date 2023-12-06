@@ -8,216 +8,231 @@ const SideProject = () => {
         <>
             <SectionHead text={"SIDE PROJECT"} />
             <Box
-                pl={{ lg: "120px" }}
-                pr={{ lg: "120px" }}
+                pl={{ lg: "120px", base: "5%" }}
+                pr={{ lg: "120px", base: "5%" }}
             >
-                <Box>
-                    <VStack>
-                        <HStack spacing={"70px"}>
-                            {/* Netflix Clone */}
-                            <Box
-                                width={{ lg: "612px" }}
-                                bgColor={"#DDF2FD"}
-                                pb={{ lg: "20px" }}
-                                pl={{ lg: "10px" }}
-                                pr={{ lg: "10px" }}
+                <HStack
+                    // display={"flex"}
+                    spacing={"30px"}
+                    mb={"20px"}
+                >
+                    {/* Keeper app*/}
+                    <Box
+                        width={"50%"}
+                        bgColor={"#DDF2FD"}
+                        pb={{ lg: "30px", base: "15px" }}
+                    >
+                        <Box display={"flex"}>
+                            <Text
+                                fontFamily={"Poppins"}
+                                fontSize={{ lg: "28px", base: "10px", md: "15px" }}
+                                fontWeight={700}
+                                color={"black"}
+                                pl={{ lg: "10px", base: "5px" }}
+                                mt={{ lg: "20px", base: "5px" }}
                             >
-                                <Box
-                                >
-                                    <HStack>
-                                        <Text
-                                            fontFamily={"Poppins"}
-                                            fontSize={{ lg: "28px", }}
-                                            fontWeight={700}
-                                            color={"black"}
-                                            mt={{ lg: "20px" }}
-                                        >
-                                            Netflix Clone
-                                        </Text>
-                                        <HStack spacing={"15px"} ml="auto">
-                                            <Link href='https://github.com/farazshafi/netflix-clone'>
-                                                <Button
-                                                    borderRadius={0}
-                                                    color={"white"}
-                                                    _hover={{ color: "black", background: "#9BBEC8" }}
-                                                    bgColor={"#164863"}>
-                                                    GITHUB
-                                                </Button>
-                                            </Link>
-                                            <Link href='https://farazshafi.github.io/netflix-clone/'>
-                                                <Button
-                                                    borderRadius={0}
-                                                    color={"white"}
-                                                    _hover={{ color: "black", background: "#9BBEC8" }}
-                                                    bgColor={"#164863"}>
-                                                    LIVE
-                                                </Button>
-                                            </Link>
-
-                                        </HStack>
-                                    </HStack>
-                                </Box>
-                                <Text
-                                    fontFamily={"Sniglet"}
-                                    fontSize={{ lg: "20px" }}
-                                >
-                                    I designed and developed a Netflix clone, a web application that replicates the user experience of the popular streaming platform, Netflix. This project showcases my skills in web development and user interface design while highlighting my ability to create a functional and user-friendly application.
-                                </Text>
+                                Keeper app
+                            </Text>
+                            <Box ml={"auto"} gap={{ lg: "20px", base: "5px", md: "13px" }} display={"flex"}>
+                                <Link href='https://github.com/farazshafi/keeper-app'>
+                                    <Button
+                                        borderRadius={0}
+                                        color={"white"}
+                                        size={{ lg: "lg", base: "xs", md: "sm" }}
+                                        _hover={{ color: "black", background: "#9BBEC8" }}
+                                        bgColor={"#164863"}>
+                                        <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                    </Button>
+                                </Link>
+                                <Link href='https://farazshafi.github.io/keeper-app/'>
+                                    <Button
+                                        borderRadius={0}
+                                        color={"white"}
+                                        size={{ lg: "lg", base: "xs", md: "sm" }}
+                                        _hover={{ color: "black", background: "#9BBEC8" }}
+                                        bgColor={"#164863"}>
+                                        <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                    </Button>
+                                </Link>
                             </Box>
-                            {/* Keeper app */}
-                            <Box
-                                // width={{ lg: "612px" }}
-                                bgColor={"#DDF2FD"}
-                                pb={{ lg: "20px" }}
-                                pl={{ lg: "10px" }}
-                                pr={{ lg: "10px" }}
+                        </Box>
+                        <Box
+                            pl={{ lg: "10px", base: "5px" }}
+                            pr={{ lg: "10px", base: "5px" }}
+                        >
+                            <Text
+                                fontFamily={"Sniglet"}
+                                fontSize={{ lg: "20px", base: "8px", md: "13px" }}
+                                mt={"5px"}
                             >
-                                <HStack>
-                                    <Text
-                                        fontFamily={"Poppins"}
-                                        fontSize={{ lg: "28px", }}
-                                        fontWeight={700}
-                                        color={"black"}
-                                        mt={{ lg: "20px" }}
-                                    >
-                                        Keeper app
-                                    </Text>
-                                    <HStack spacing={"15px"} ml="auto">
-                                        <Link href='https://github.com/farazshafi/keeper-app'>
-                                            <Button
-                                                borderRadius={0}
-                                                color={"white"}
-                                                _hover={{ color: "black", background: "#9BBEC8" }}
-                                                bgColor={"#164863"}>
-                                                GITHUB
-                                            </Button>
-                                        </Link>
-                                        <Link href='https://farazshafi.github.io/keeper-app/'>
-                                            <Button
-                                                borderRadius={0}
-                                                color={"white"}
-                                                _hover={{ color: "black", background: "#9BBEC8" }}
-                                                bgColor={"#164863"}>
-                                                LIVE
-                                            </Button>
-                                        </Link>
-
-                                    </HStack>
-                                </HStack>
-                                <Text
-                                    fontFamily={"Sniglet"}
-                                    fontSize={{ lg: "20px" }}
-                                >
-                                    Built with React and featuring a responsive design, the Keeper App is a user-friendly note-taking application that allows users to create, save, and manage their notes with the convenience of local storage
-                                </Text>
-                            </Box>
-                        </HStack>
-                        <HStack spacing={"70px"}>
-                            {/*  Driving school */}
-                            <Box
-                                // width={{ lg: "612px" }}
-                                bgColor={"#DDF2FD"}
-                                pb={{ lg: "20px" }}
-                                pl={{ lg: "10px" }}
-                                pr={{ lg: "10px" }}
-
+                                Built with React and featuring a responsive design, the Keeper App is a user-friendly note-taking application that allows users to create, save, and manage their notes with the convenience of local storage
+                            </Text>
+                        </Box>
+                    </Box>
+                    {/* NETFLIX CLONE */}
+                    <Box
+                        width={"50%"}
+                        bgColor={"#DDF2FD"}
+                        pb={{ lg: "30px", base: "15px" }}
+                    >
+                        <Box display={"flex"}>
+                            <Text
+                                fontFamily={"Poppins"}
+                                fontSize={{ lg: "28px", base: "10px", md: "15px" }}
+                                fontWeight={700}
+                                color={"black"}
+                                pl={{ lg: "10px", base: "5px" }}
+                                mt={{ lg: "20px", base: "5px" }}
                             >
-                                <Box
-                                >
-                                    <HStack>
-                                        <Text
-                                            fontFamily={"Poppins"}
-                                            fontSize={{ lg: "28px", }}
-                                            fontWeight={700}
-                                            color={"black"}
-                                            mt={{ lg: "20px" }}
-                                        >
-                                            Driving school
-                                        </Text>
-                                        <HStack spacing={"15px"} ml="auto">
-                                            <Link href='https://github.com/farazshafi/Driving_School_Demo'>
-                                                <Button
-                                                    borderRadius={0}
-                                                    color={"white"}
-                                                    _hover={{ color: "black", background: "#9BBEC8" }}
-                                                    bgColor={"#164863"}>
-                                                    GITHUB
-                                                </Button>
-                                            </Link>
-                                            <Link href='https://farazshafi.github.io/Driving_School_Demo/'>
-                                                <Button
-                                                    borderRadius={0}
-                                                    color={"white"}
-                                                    _hover={{ color: "black", background: "#9BBEC8" }}
-                                                    bgColor={"#164863"}>
-                                                    LIVE
-                                                </Button>
-                                            </Link>
-
-                                        </HStack>
-                                    </HStack>
-                                </Box>
-                                <Text
-                                    fontFamily={"Sniglet"}
-                                    fontSize={{ lg: "20px" }}
-                                >
-                                    Designed and developed a captivating driving school website, enriched with seamless animations, delivering an immersive user experience while providing comprehensive course details, interactive maps, and easy contact options.
-                                </Text>
+                                Netflix Clone
+                            </Text>
+                            <Box ml={"auto"} gap={{ lg: "20px", base: "5px", md: "13px" }} display={"flex"}>
+                                <Link href='https://github.com/farazshafi/netflix-clone'>
+                                    <Button
+                                        borderRadius={0}
+                                        color={"white"}
+                                        size={{ lg: "lg", base: "xs", md: "sm" }}
+                                        _hover={{ color: "black", background: "#9BBEC8" }}
+                                        bgColor={"#164863"}>
+                                        <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                    </Button>
+                                </Link>
+                                <Link href='https://farazshafi.github.io/netflix-clone/'>
+                                    <Button
+                                        borderRadius={0}
+                                        color={"white"}
+                                        size={{ lg: "lg", base: "xs", md: "sm" }}
+                                        _hover={{ color: "black", background: "#9BBEC8" }}
+                                        bgColor={"#164863"}>
+                                        <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                    </Button>
+                                </Link>
                             </Box>
-                            {/* Memory Game*/}
-                            <Box
-                                // width={{ lg: "612px" }}
-                                bgColor={"#DDF2FD"}
-                                pb={{ lg: "20px" }}
-                                pl={{ lg: "10px" }}
-                                pr={{ lg: "10px" }}
+                        </Box>
+                        <Box
+                            pl={{ lg: "10px", base: "5px" }}
+                            pr={{ lg: "10px", base: "5px" }}
+                        >
+                            <Text
+                                fontFamily={"Sniglet"}
+                                fontSize={{ lg: "20px", base: "8px", md: "13px" }}
+                                mt={"5px"}
                             >
-                                <HStack>
-                                    <Text
-                                        fontFamily={"Poppins"}
-                                        fontSize={{ lg: "28px", }}
-                                        fontWeight={700}
-                                        color={"black"}
-                                        mt={{ lg: "20px" }}
-                                    >
-                                        Memory Game
-                                    </Text>
-                                    <HStack spacing={"15px"} ml="auto">
-                                        <Link href='https://github.com/farazshafi/memory-game'>
-                                            <Button
-                                                borderRadius={0}
-                                                color={"white"}
-                                                _hover={{ color: "black", background: "#9BBEC8" }}
-                                                bgColor={"#164863"}>
-                                                GITHUB
-                                            </Button>
-                                        </Link>
-                                        <Link href='https://farazshafi.github.io/memory-game/'>
-                                            <Button
-                                                borderRadius={0}
-                                                color={"white"}
-                                                _hover={{ color: "black", background: "#9BBEC8" }}
-                                                bgColor={"#164863"}>
-                                                LIVE
-                                            </Button>
-                                        </Link>
-
-                                    </HStack>
-                                </HStack>
-                                <Text
-                                    fontFamily={"Sniglet"}
-                                    fontSize={{ lg: "20px" }}
-                                >
-                                    Developed an interactive Memory game with HTML, CSS, and JavaScript, featuring levels, sound effects, and a memory level tracker, showcasing proficiency in web development and user interface design
-                                </Text>
+                                I designed and developed a Netflix clone, a web application that replicates the user experience of the popular streaming platform, Netflix. This project showcases my skills in web development and user interface design while highlighting my ability to create a functional and user-friendly application.
+                            </Text>
+                        </Box>
+                    </Box>
+                </HStack >
+                <HStack
+                    // display={"flex"}
+                    spacing={"30px"}
+                >
+                    {/* Driving school */}
+                    <Box
+                        width={"50%"}
+                        bgColor={"#DDF2FD"}
+                        pb={{ lg: "30px", base: "15px" }}
+                    >
+                        <Box display={"flex"}>
+                            <Text
+                                fontFamily={"Poppins"}
+                                fontSize={{ lg: "28px", base: "10px", md: "15px" }}
+                                fontWeight={700}
+                                color={"black"}
+                                pl={{ lg: "10px", base: "5px" }}
+                                mt={{ lg: "20px", base: "5px" }}
+                            >
+                                Driving school
+                            </Text>
+                            <Box ml={"auto"} gap={{ lg: "20px", base: "5px", md: "13px" }} display={"flex"}>
+                                <Link href='https://github.com/farazshafi/Driving_School_Demo'>                                    <Button
+                                    borderRadius={0}
+                                    color={"white"}
+                                    size={{ lg: "lg", base: "xs", md: "sm" }}
+                                    _hover={{ color: "black", background: "#9BBEC8" }}
+                                    bgColor={"#164863"}>
+                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                </Button>
+                                </Link>
+                                <Link href='https://farazshafi.github.io/Driving_School_Demo/'>                                    <Button
+                                    borderRadius={0}
+                                    color={"white"}
+                                    size={{ lg: "lg", base: "xs", md: "sm" }}
+                                    _hover={{ color: "black", background: "#9BBEC8" }}
+                                    bgColor={"#164863"}>
+                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                </Button>
+                                </Link>
                             </Box>
-                        </HStack>
-
-                    </VStack>
-
-                </Box>
-            </Box >
-
+                        </Box>
+                        <Box
+                            pl={{ lg: "10px", base: "5px" }}
+                            pr={{ lg: "10px", base: "5px" }}
+                        >
+                            <Text
+                                fontFamily={"Sniglet"}
+                                fontSize={{ lg: "20px", base: "8px", md: "13px" }}
+                                mt={"5px"}
+                            >
+                                Designed and developed a captivating driving school website, enriched with seamless animations, delivering an immersive user experience while providing comprehensive course details, interactive maps, and easy contact options.
+                            </Text>
+                        </Box>
+                    </Box>
+                    {/* Memory Game */}
+                    <Box
+                        width={"50%"}
+                        bgColor={"#DDF2FD"}
+                        pb={{ lg: "30px", base: "15px" }}
+                    >
+                        <Box display={"flex"}>
+                            <Text
+                                fontFamily={"Poppins"}
+                                fontSize={{ lg: "28px", base: "10px", md: "15px" }}
+                                fontWeight={700}
+                                color={"black"}
+                                pl={{ lg: "10px", base: "5px" }}
+                                mt={{ lg: "20px", base: "5px" }}
+                            >
+                                Memory Game
+                            </Text>
+                            <Box ml={"auto"} gap={{ lg: "20px", base: "5px", md: "13px" }} display={"flex"}>
+                                <Link href='https://github.com/farazshafi/memory-game'>
+                                    <Button
+                                        borderRadius={0}
+                                        color={"white"}
+                                        size={{ lg: "lg", base: "xs", md: "sm" }}
+                                        _hover={{ color: "black", background: "#9BBEC8" }}
+                                        bgColor={"#164863"}>
+                                        <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                    </Button>
+                                </Link>
+                                <Link href='https://farazshafi.github.io/memory-game/'>
+                                    <Button
+                                        borderRadius={0}
+                                        color={"white"}
+                                        size={{ lg: "lg", base: "xs", md: "sm" }}
+                                        _hover={{ color: "black", background: "#9BBEC8" }}
+                                        bgColor={"#164863"}>
+                                        <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                    </Button>
+                                </Link>
+                            </Box>
+                        </Box>
+                        <Box
+                            pl={{ lg: "10px", base: "5px" }}
+                            pr={{ lg: "10px", base: "5px" }}
+                        >
+                            <Text
+                                fontFamily={"Sniglet"}
+                                fontSize={{ lg: "20px", base: "8px", md: "13px" }}
+                                mt={"5px"}
+                            >
+                                Developed an interactive Memory game with HTML, CSS, and JavaScript, featuring levels, sound effects, and a memory level tracker, showcasing proficiency in web development and user interface design
+                            </Text>
+                        </Box>
+                    </Box>
+                </HStack >
+            </Box>
         </>
     )
 }
