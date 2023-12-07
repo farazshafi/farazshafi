@@ -40,20 +40,19 @@ const Skills = () => {
         pl={{ lg: "120px", base: "5%" }}
         pr={{ lg: "120px", base: "5%" }}
       >
-        <VStack spacing={"50px"}>
+        <VStack spacing={{ lg: "50px", base: "25px" }}>
           {/* Front-End skills */}
           <Box
             bgColor={"#DDF2FD"}
             width={"100%"}
-            
-            border={'10px solid '}
-            // pt={{ lg: "70px", base: "5%" }}
+
+            border={{ lg: '10px solid ', base: '5px solid' }}
             pb={{ lg: "70px", base: "5%" }}
             pr={{ lg: "70px", base: "5%" }}
             pl={{ lg: "70px", base: "5%" }}
           >
             <Box
-              mt={"-34px"}
+              mt={{ lg: "-34px", base: "-14.5px" }}
               display={"flex"}
               justifyContent={"center"}
               alignItems={"center"}
@@ -61,10 +60,10 @@ const Skills = () => {
               <Box
                 bgColor={"#164863"}
                 width={"fit-content"}
-                pl={"10px"}
-                pr={"10px"}
-                pb={"10px"}
-                pt={"10px"}
+                pl={{ lg: "10px", base: "6px" }}
+                pr={{ lg: "10px", base: "6px" }}
+                pb={{ lg: "10px", base: "6px" }}
+                pt={{ lg: "10px", base: "6px" }}
               >
                 <Text
                   fontFamily={"Poppins"}
@@ -72,7 +71,7 @@ const Skills = () => {
                   fontWeight={700}
                   alignItems={"center"}
                   textAlign={"center"}
-                  fontSize={{ lg: "25px" }}
+                  fontSize={{ lg: "25px", base: "8px" }}
                 >
                   FRONT-END
                 </Text>
@@ -82,46 +81,46 @@ const Skills = () => {
               display={"flex"}
               alignItems={"center"}
               justifyContent={"center"}
-              mt={{ lg: "23px" }}
+              mt={{ lg: "23px", base: "10px" }}
             >
-              <VStack spacing={{ lg: "30px" }}>
-                <HStack spacing={{ lg: "25px" }}>
-                  <Box boxSize='120px'>
+              <VStack spacing={{ lg: "30px", base: "15px" }}>
+                <HStack spacing={{ lg: "25px", base: "10px" }}>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={htmlLogo} alt='html logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={cssLogo} alt='css logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={reactLogo} alt='React' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={muiLogo} alt='mui logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={reduxLogo} alt='redux logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={taliwanLogo} alt='taliwand logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={figmaLogo} alt='figma logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={bootstrapLogo} alt='bootstrap logo' />
                   </Box>
                 </HStack>
-                <HStack spacing={{ lg: "25px" }}>
-                  <Box boxSize='120px'>
+                <HStack spacing={{ lg: "25px", base: "10px" }}>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={lottiefilesLogo} alt='lotti logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={fontawsomeLogo} alt='fontawsome logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={chakraLogo} alt='chakra ui' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={somethingLogo} alt='something logo' />
                   </Box>
                 </HStack>
@@ -130,16 +129,14 @@ const Skills = () => {
           </Box>
           {/* Back-End skills */}
           <Box
-            // bgColor={"#DDF2FD"}
             width={"100%"}
-            
-            border={'10px solid '}
+            border={{ lg: '10px solid', base: '5px solid' }}
             pb={{ lg: "70px", base: "5%" }}
             pr={{ lg: "70px", base: "5%" }}
             pl={{ lg: "70px", base: "5%" }}
           >
             <Box
-              mt={"-34px"}
+              mt={{ lg: "-34px", base: "-14.5px" }}
               display={"flex"}
               justifyContent={"center"}
               alignItems={"center"}
@@ -147,10 +144,10 @@ const Skills = () => {
               <Box
                 bgColor={"#164863"}
                 width={"fit-content"}
-                pl={"10px"}
-                pr={"10px"}
-                pb={"10px"}
-                pt={"10px"}
+                pl={{ lg: "10px", base: "6px" }}
+                pr={{ lg: "10px", base: "6px" }}
+                pb={{ lg: "10px", base: "6px" }}
+                pt={{ lg: "10px", base: "6px" }}
               >
                 <Text
                   fontFamily={"Poppins"}
@@ -158,7 +155,7 @@ const Skills = () => {
                   fontWeight={700}
                   alignItems={"center"}
                   textAlign={"center"}
-                  fontSize={{ lg: "25px" }}
+                  fontSize={{ lg: "25px", base: "8px" }}
                 >
                   BACK-END
                 </Text>
@@ -168,43 +165,54 @@ const Skills = () => {
               display={"flex"}
               alignItems={"center"}
               justifyContent={"center"}
-              mt={{ lg: "23px" }}
+              mt={{ lg: "23px", base: "10px" }}
             >
-              <VStack spacing={{ lg: "30px" }}>
-                <HStack spacing={{ lg: "25px" }}>
-                  <Box boxSize='120px'>
+              <VStack spacing={{ lg: "30px", base: "15px" }}>
+                <HStack spacing={{ lg: "25px", base: "10px" }}>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={nodeLogo} alt='logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={mongodbLogo} alt='mongodbLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={mongooseLogo} alt='mongoose' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={socketLogo} alt='socketLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={expressLogo} alt='expressLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={pm2Logo} alt='pm2Logo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={paypalLogo} alt='paypalLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={npmLogo} alt='npmLogo' />
                   </Box>
                 </HStack>
-                <HStack spacing={{ lg: "25px" }}>
-                  <Box boxSize='120px'>
+                <HStack spacing={{ lg: "25px", base: "10px" }}>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={jwtLogo} alt='jwtLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={nginxLogo} alt='nginxLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
+
                     <Image src={restapiLogo} alt='restapiLogo' />
                   </Box>
                 </HStack>
@@ -215,13 +223,13 @@ const Skills = () => {
           <Box
             bgColor={"#DDF2FD"}
             width={"100%"}
-            border={'10px solid '}
+            border={{ lg: '10px solid', base: '5px solid' }}
             pb={{ lg: "70px", base: "5%" }}
             pr={{ lg: "70px", base: "5%" }}
             pl={{ lg: "70px", base: "5%" }}
           >
             <Box
-              mt={"-34px"}
+              mt={{ lg: "-34px", base: "-14.5px" }}
               display={"flex"}
               justifyContent={"center"}
               alignItems={"center"}
@@ -229,10 +237,10 @@ const Skills = () => {
               <Box
                 bgColor={"#164863"}
                 width={"fit-content"}
-                pl={"10px"}
-                pr={"10px"}
-                pb={"10px"}
-                pt={"10px"}
+                pl={{ lg: "10px", base: "6px" }}
+                pr={{ lg: "10px", base: "6px" }}
+                pb={{ lg: "10px", base: "6px" }}
+                pt={{ lg: "10px", base: "6px" }}
               >
                 <Text
                   fontFamily={"Poppins"}
@@ -240,7 +248,7 @@ const Skills = () => {
                   fontWeight={700}
                   alignItems={"center"}
                   textAlign={"center"}
-                  fontSize={{ lg: "25px" }}
+                  fontSize={{ lg: "25px", base: "8px" }}
                 >
                   OTHER
                 </Text>
@@ -250,29 +258,29 @@ const Skills = () => {
               display={"flex"}
               alignItems={"center"}
               justifyContent={"center"}
-              mt={{ lg: "23px" }}
+              mt={{ lg: "23px", base: "10px" }}
             >
-              <VStack spacing={{ lg: "30px" }}>
-                <HStack spacing={{ lg: "25px" }}>
-                  <Box boxSize='120px'>
+              <VStack spacing={{ lg: "30px", base: "15px" }}>
+                <HStack spacing={{ lg: "25px", base: "10px" }}>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={awsLogo} alt='awsLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={digitaloceanLogo} alt='digitaloceanLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={gitLogo} alt='gitLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={postmanLogo} alt='postmanLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={onrenderLogo} alt='onrenderLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={herokuLogo} alt='herokuLogo' />
                   </Box>
-                  <Box boxSize='120px'>
+                  <Box boxSize={{ lg: "120px", base: "30px" }}>
                     <Image src={githubLogo} alt='githubLogo' />
                   </Box>
                 </HStack>
