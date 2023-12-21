@@ -8,6 +8,7 @@ import SectionHead from './component/SectionHead';
 import Projects from './component/Projects';
 import SideProject from './component/SideProject';
 import Skills from './component/Skills';
+import Education from './component/Education';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <SideProject />
       <Skills />
+      <Education />
     </div>
   );
 }
