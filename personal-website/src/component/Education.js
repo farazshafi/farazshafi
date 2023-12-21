@@ -7,53 +7,64 @@ import whiteImg from "../images/white.png"
 
 const Education = () => {
     return (
-        <section style={{ backgroundColor: "#164863", paddingTop: "50px", paddingBottom: "50px" }}>
+        <Box
+            bgColor={"#164863"}
+            pt={{ lg: "25px", base: "4px" }}
+            pb={{ lg: "50px", base: "15px" }}
+
+        >
             <SectionHead color={"white"} text={"EDUCATION"} />
             <Box
                 pl={{ lg: "120px", base: "5%" }}
                 pr={{ lg: "120px", base: "5%" }}
             >
-                <HStack spacing={{ lg: "35px" }}>
+                <Box
+                    display={{ lg: "flex", base: "inline" }}
+                    gap={{ lg: "35px", base: "30px" }}
+                >
                     {/* higher secondary */}
                     <Box
+                        mt={{ base: "30px", lg: "0px" }}
                         bgImg={whiteImg}
+                        bgSize={"contain"}
+                        // bgRepeat={'no-repeat'}
                         width={"100%"}
                     >
                         <Box
-                            pt={{ lg: "30px" }}
-                            pl={{ lg: "50px" }}
+                            pt={{ lg: "30px", base: "30px" }}
+                            pl={{ lg: "50px", base: "30px" }}
                         >
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "35px" }}
+                                fontSize={{ lg: "35px", base: "18px" }}
                                 fontWeight={700}
                             >
                                 Higher secondary
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px" }}
-                                mt={{ lg: "20px" }}
+                                fontSize={{ lg: "20px", base: "10px" }}
+                                mt={{ lg: "20px", base: "5px" }}
                             >
                                 Govt. H S S Patla
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px" }}
-                                mt={{ lg: "15px" }}
+                                fontSize={{ lg: "20px", base: "10px" }}
+                                mt={{ lg: "15px", base: "3px" }}
                             >
                                 Kasaragod, Kerala, India
                             </Text>
                         </Box>
                         <Box
                             bgColor={"#9BBEC8"}
-                            p={{ lg: "15px" }}
+                            p={{ lg: "15px", base: "8px" }}
                             width={"fit-content"}
-                            mt={{ lg: "50px" }}
+                            mt={{ lg: "50px", base: "15px" }}
                         >
                             <Text
                                 fontFamily={"Sniglet"}
-                                fontSize={{ lg: "20px" }}
+                                fontSize={{ lg: "20px", base: "12px" }}
                                 textAlign={"center"}
                                 color={"black"}
                             >
@@ -63,44 +74,47 @@ const Education = () => {
                     </Box>
                     {/* high school */}
                     <Box
+                        mt={{ base: "30px", lg: "0px" }}
                         bgImg={lapImg}
+                        bgSize={"contain"}
+                        // bgRepeat={'no-repeat'}
                         width={"100%"}
                     >
                         <Box
-                            pt={{ lg: "30px" }}
-                            pl={{ lg: "50px" }}
+                            pt={{ lg: "30px", base: "30px" }}
+                            pl={{ lg: "50px", base: "30px" }}
                         >
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "35px" }}
+                                fontSize={{ lg: "35px", base: "18px" }}
                                 fontWeight={700}
                             >
                                 High School
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px" }}
-                                mt={{ lg: "20px" }}
+                                fontSize={{ lg: "20px", base: "10px" }}
+                                mt={{ lg: "20px", base: "5px" }}
                             >
                                 Govt. H S S Patla
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px" }}
-                                mt={{ lg: "15px" }}
+                                fontSize={{ lg: "20px", base: "10px" }}
+                                mt={{ lg: "15px", base: "3px" }}
                             >
                                 Kasaragod, Kerala, India
                             </Text>
                         </Box>
                         <Box
                             bgColor={"#9BBEC8"}
-                            p={{ lg: "15px" }}
+                            p={{ lg: "15px", base: "8px" }}
                             width={"fit-content"}
-                            mt={{ lg: "50px" }}
+                            mt={{ lg: "50px", base: "15px" }}
                         >
                             <Text
                                 fontFamily={"Sniglet"}
-                                fontSize={{ lg: "20px" }}
+                                fontSize={{ lg: "20px", base: "12px" }}
                                 textAlign={"center"}
                                 color={"black"}
                             >
@@ -108,9 +122,9 @@ const Education = () => {
                             </Text>
                         </Box>
                     </Box>
-                </HStack>
+                </Box>
             </Box>
-        </section>
+        </Box>
     )
 }
 
