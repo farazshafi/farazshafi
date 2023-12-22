@@ -9,8 +9,8 @@ const Education = () => {
     return (
         <Box
             bgColor={"#164863"}
-            pt={{ lg: "25px", base: "4px" }}
-            pb={{ lg: "50px", base: "15px" }}
+            pt={{ lg: "25px", base: "4px", md: "5px" }}
+            pb={{ lg: "50px", base: "15px", md: "20px" }}
 
         >
             <SectionHead color={"white"} text={"EDUCATION"} />
@@ -19,15 +19,14 @@ const Education = () => {
                 pr={{ lg: "120px", base: "5%" }}
             >
                 <Box
-                    display={{ lg: "flex", base: "inline" }}
+                    display={{ lg: "flex", base: "inline", md: "flex" }}
                     gap={{ lg: "35px", base: "30px" }}
                 >
                     {/* higher secondary */}
                     <Box
-                        mt={{ base: "30px", lg: "0px" }}
+                        mt={{ base: "30px", lg: "0px", md:"0px" }}
                         bgImg={whiteImg}
                         bgSize={"contain"}
-                        // bgRepeat={'no-repeat'}
                         width={"100%"}
                     >
                         <Box
@@ -36,21 +35,21 @@ const Education = () => {
                         >
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "35px", base: "18px" }}
+                                fontSize={{ lg: "35px", base: "18px", md: "20px" }}
                                 fontWeight={700}
                             >
                                 Higher secondary
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px", base: "10px" }}
+                                fontSize={{ lg: "20px", base: "10px", md: "14px" }}
                                 mt={{ lg: "20px", base: "5px" }}
                             >
                                 Govt. H S S Patla
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px", base: "10px" }}
+                                fontSize={{ lg: "20px", base: "10px", md: "14px" }}
                                 mt={{ lg: "15px", base: "3px" }}
                             >
                                 Kasaragod, Kerala, India
@@ -74,7 +73,7 @@ const Education = () => {
                     </Box>
                     {/* high school */}
                     <Box
-                        mt={{ base: "30px", lg: "0px" }}
+                        mt={{ base: "30px", lg: "0px", md:"0px" }}
                         bgImg={lapImg}
                         bgSize={"contain"}
                         // bgRepeat={'no-repeat'}
@@ -86,21 +85,21 @@ const Education = () => {
                         >
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "35px", base: "18px" }}
+                                fontSize={{ lg: "35px", base: "18px", md: "20px" }}
                                 fontWeight={700}
                             >
                                 High School
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px", base: "10px" }}
+                                fontSize={{ lg: "20px", base: "10px", md: "14px" }}
                                 mt={{ lg: "20px", base: "5px" }}
                             >
                                 Govt. H S S Patla
                             </Text>
                             <Text
                                 fontFamily={"Poppins"}
-                                fontSize={{ lg: "20px", base: "10px" }}
+                                fontSize={{ lg: "20px", base: "10px", md: "14px" }}
                                 mt={{ lg: "15px", base: "3px" }}
                             >
                                 Kasaragod, Kerala, India
