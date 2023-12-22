@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Box } from "@chakra-ui/react"
+import { Text, Box, Link } from "@chakra-ui/react"
 
 const Navbar = () => {
     return (
@@ -18,45 +18,67 @@ const Navbar = () => {
                 >
                     Faraz shafi
                 </Text>
+
+
                 <Box
                     display={"flex"}
                     ml={"auto"}
                 >
-                    <Text
-                        fontFamily={"Poppins"}
-                        color={"white"}
-                        mt={{ base: "4px", lg: "8px", md: "7px" }}
-                        fontSize={{ base: "10px", lg: "25px", md: "20px" }}
-                    >
-                        about
-                    </Text>
-                    <Text
-                        fontFamily={"Poppins"}
-                        color={"white"}
-                        mt={{ base: "4px", lg: "8px", md: "7px" }}
-                        ml={{ base: "10px", lg: "40px", md: "15px" }}
-                        fontSize={{ base: "10px", lg: "25px", md: "20px" }}
-                    >
-                        projects
-                    </Text>
-                    <Text
-                        fontFamily={"Poppins"}
-                        color={"white"}
-                        mt={{ base: "4px", lg: "8px", md: "7px" }}
-                        ml={{ base: "10px", lg: "40px", md: "15px" }}
-                        fontSize={{ base: "10px", lg: "25px", md: "20px" }}
-                    >
-                        skills
-                    </Text>
-                    <Text
-                        fontFamily={"Poppins"}
-                        color={"white"}
-                        mt={{ base: "4px", lg: "8px", md: "7px" }}
-                        ml={{ base: "10px", lg: "40px", md: "15px" }}
-                        fontSize={{ base: "10px", lg: "25px", md: "20px" }}
-                    >
-                        education
-                    </Text>
+                    <Link href={"#about"}>
+                        <Text
+                            fontFamily={"Poppins"}
+                            color={"white"}
+                            mt={{ base: "4px", lg: "8px", md: "7px" }}
+                            fontSize={{ base: "10px", lg: "25px", md: "20px" }}
+                        >
+                            about
+                        </Text>
+                    </Link>
+                    <Link href={"#projects"}>
+                        <Text
+                            fontFamily={"Poppins"}
+                            color={"white"}
+                            mt={{ base: "4px", lg: "8px", md: "7px" }}
+                            ml={{ base: "10px", lg: "40px", md: "15px" }}
+                            fontSize={{ base: "10px", lg: "25px", md: "20px" }}
+                        >
+                            projects
+                        </Text>
+                    </Link>
+                    <Link href={"#side-projects"}>
+                        <Text
+                            fontFamily={"Poppins"}
+                            color={"white"}
+                            mt={{ base: "4px", lg: "8px", md: "7px" }}
+                            ml={{ base: "10px", lg: "40px", md: "15px" }}
+                            fontSize={{ base: "10px", lg: "25px", md: "20px" }}
+                        >
+                            SideProject
+                        </Text>
+                    </Link>
+                    <Link href={"#skills"}>
+                        <Text
+                            fontFamily={"Poppins"}
+                            color={"white"}
+                            mt={{ base: "4px", lg: "8px", md: "7px" }}
+                            ml={{ base: "10px", lg: "40px", md: "15px" }}
+                            fontSize={{ base: "10px", lg: "25px", md: "20px" }}
+                        >
+                            skills
+                        </Text>
+                    </Link>
+                    <Link href={"#education"}>
+                        <Text
+                            fontFamily={"Poppins"}
+                            color={"white"}
+                            mt={{ base: "4px", lg: "8px", md: "7px" }}
+                            ml={{ base: "10px", lg: "40px", md: "15px" }}
+                            fontSize={{ base: "10px", lg: "25px", md: "20px" }}
+                        >
+                            education
+                        </Text>
+                    </Link>
+
                     <Box
                         mt={{ base: "4px", lg: "4px", md: "7px" }}
                         ml={{ base: "10px", lg: "40px" }}
@@ -75,7 +97,7 @@ const Navbar = () => {
                         Contact me
                     </Box>
                 </Box>
-            </Box>
+            </Box >
         </>
     )
 }

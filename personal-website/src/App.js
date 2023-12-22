@@ -10,21 +10,26 @@ import SideProject from './component/SideProject';
 import Skills from './component/Skills';
 import Education from './component/Education';
 import Footer from './component/Footer';
+import ScrollToTopBtn from './component/ScrollToTopBtn';
 
 function App() {
 
   return (
-    <div className="App">
-      <Navbar />
-      <Intro />
-      <GetInTouch col={"#DDF2FD"} />
-      <About />
-      <Projects />
-      <SideProject />
-      <Skills />
-      <Education />
-      <Footer />
-    </div>
+    <>
+      <div className="App">
+        <ScrollToTopBtn />
+        <Navbar />
+        <Intro />
+        <GetInTouch col={"#DDF2FD"} />
+        <About />
+        <Projects />
+        <SideProject />
+        <Skills />
+        <Education />
+        <Footer />
+      </div>
+    </>
+
   );
 }
 

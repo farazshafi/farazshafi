@@ -35,7 +35,7 @@ import onrenderLogo from "../images/otherSkills/onrender.png"
 const Skills = () => {
   return (
     <>
-      <SectionHead text={"SKILLS"} />
+      <SectionHead i={"skills"} text={"SKILLS"} />
       <Box
         pl={{ lg: "120px", base: "5%" }}
         pr={{ lg: "120px", base: "5%" }}

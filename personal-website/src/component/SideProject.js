@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap'
 const SideProject = () => {
     return (
         <>
-            <SectionHead text={"SIDE PROJECT"} />
+            <SectionHead i={"side-projects"} text={"SIDE PROJECT"} />
             <Box
                 pl={{ lg: "120px", base: "5%" }}
                 pr={{ lg: "120px", base: "5%" }}

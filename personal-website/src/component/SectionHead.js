@@ -1,9 +1,10 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 
-const SectionHead = ({ text, center, color }) => {
+const SectionHead = ({ i, text, center, color }) => {
     return (
         <Box
+            id={i}
             mt={{ base: "25px", md: "", lg: "80px" }}
             pl={"5%"}
             pr={"5%"}

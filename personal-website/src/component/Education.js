@@ -13,7 +13,7 @@ const Education = () => {
             pb={{ lg: "50px", base: "15px", md: "20px" }}
 
         >
-            <SectionHead color={"white"} text={"EDUCATION"} />
+            <SectionHead i={"education"} color={"white"} text={"EDUCATION"} />
             <Box
                 pl={{ lg: "120px", base: "5%" }}
                 pr={{ lg: "120px", base: "5%" }}
@@ -24,7 +24,7 @@ const Education = () => {
                 >
                     {/* higher secondary */}
                     <Box
-                        mt={{ base: "30px", lg: "0px", md:"0px" }}
+                        mt={{ base: "30px", lg: "0px", md: "0px" }}
                         bgImg={whiteImg}
                         bgSize={"contain"}
                         width={"100%"}
@@ -73,7 +73,7 @@ const Education = () => {
                     </Box>
                     {/* high school */}
                     <Box
-                        mt={{ base: "30px", lg: "0px", md:"0px" }}
+                        mt={{ base: "30px", lg: "0px", md: "0px" }}
                         bgImg={lapImg}
                         bgSize={"contain"}
                         // bgRepeat={'no-repeat'}

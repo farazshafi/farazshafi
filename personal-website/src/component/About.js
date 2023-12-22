@@ -15,7 +15,7 @@ const About = () => {
 
     return (
         <>
-            <SectionHead center={false} text={"WHO IS ME ?"} />
+            <SectionHead i={"about"} center={false} text={"WHO IS ME ?"} />
             <Box
                 display="flex"
                 alignItems={"center"}

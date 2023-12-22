@@ -18,7 +18,7 @@ const Projects = () => {
 
     return (
         <>
-            <SectionHead center={true} text={"PROJECTS"} />
+            <SectionHead i={"projects"} center={true} text={"PROJECTS"} />
             {/* Gedgepping project */}
             <Box
                 pl={{ lg: "100px" }}

@@ -1,20 +1,50 @@
 /* Styles for large screens (min-width: 1200px) */
 @media (min-width: 1200px) {
-  #contact-icon{
+  #contact-icon {
     font-size: 50px;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Styles for medium screens (min-width: 768px and max-width: 1199px) */
 @media (min-width: 768px) and (max-width: 1199px) {
- #contact-icon{
-  font-size: 30px;
- }
+  #contact-icon {
+    font-size: 30px;
+  }
 }
 
 /* Styles for small screens (max-width: 767px) */
 @media (max-width: 767px) {
-  #contact-icon{
+  #contact-icon {
     font-size: 20px;
   }
+}
+
+.scroll-to-top-button {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding: 0;
+  background-color: #ddf2fd;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.scroll-to-top-button.visible {
+  display: block;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #000000;
+  color: white;
 }
