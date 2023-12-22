@@ -9,6 +9,7 @@ import Projects from './component/Projects';
 import SideProject from './component/SideProject';
 import Skills from './component/Skills';
 import Education from './component/Education';
+import Footer from './component/Footer';
 
 function App() {
 
@@ -16,12 +17,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Intro />
-      <GetInTouch />
+      <GetInTouch col={"#DDF2FD"} />
       <About />
       <Projects />
       <SideProject />
       <Skills />
       <Education />
+      <Footer />
     </div>
   );
 }
