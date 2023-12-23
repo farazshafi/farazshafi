@@ -1,7 +1,7 @@
 import React from 'react'
-import { Box, HStack, } from '@chakra-ui/react';
+import { Box, HStack, Link, } from '@chakra-ui/react';
 
-const GetInTouch = ({col}) => {
+const GetInTouch = ({ col }) => {
     return (
         <>
             <Box
@@ -9,6 +9,7 @@ const GetInTouch = ({col}) => {
                 display={"flex"}
                 alignItems={"center"}
                 justifyContent={"center"}
+                id={"contact"}
             >
                 <Box
                     bgColor={col}
@@ -22,9 +23,18 @@ const GetInTouch = ({col}) => {
                     pb={{ lg: "10px", md: "6px", base: "3px" }}
                 >
                     <HStack spacing={{ lg: "37px", base: "20px" }}>
-                        <i id='contact-icon' style={{color : col === "black" ? "#959595" : "#0072b1"}} class="fa-brands fa-github"></i>
-                        <i id='contact-icon' style={{color : col === "black" ? "#959595" : "#0072b1"}} class="fa-brands fa-linkedin"></i>
-                        <i id='contact-icon' style={{color : col === "black" ? "#959595" : "#0072b1"}} class="fa-solid fa-envelope"></i>
+                        <Link target='_blank' href='https://github.com/farazshafi'>
+                            <i id='contact-icon' style={{ color: col === "black" ? "#959595" : "#0072b1" }} class="fa-brands fa-github"></i>
+                        </Link>
+                        <Link target='_blank' href='https://www.linkedin.com/in/farazshafi/'>
+                            <i id='contact-icon' style={{ color: col === "black" ? "#959595" : "#0072b1" }} class="fa-brands fa-linkedin"></i>
+                        </Link>
+                        <Link target='_blank' href='mailto: farazpachu777@gmai.com'>
+                            <i id='contact-icon' style={{ color: col === "black" ? "#959595" : "#0072b1" }} class="fa-solid fa-envelope"></i>
+                        </Link>
+                        <Link target='_blank' href='https://wa.me/9188773788'>
+                            <i id='contact-icon' style={{ color: col === "black" ? "#959595" : "#0072b1" }} class="fa-brands fa-whatsapp"></i>
+                        </Link>
                     </HStack>
                 </Box>
             </Box>
