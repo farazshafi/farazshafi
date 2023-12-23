@@ -9,13 +9,6 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"
 
 const Projects = () => {
 
-    const navigateToGit = (project) => {
-        // navigate to git 
-    }
-    const navigateToLive = (project) => {
-        // navigate to live
-    }
-
     return (
         <>
             <SectionHead i={"projects"} center={true} text={"PROJECTS"} />
@@ -151,27 +144,29 @@ const Projects = () => {
                                     >
                                         <HStack>
                                             <Box width={"100%"}>
-                                                <Button
-                                                    onClick={navigateToGit("gedgepping")}
-                                                    size={{ base: "xs", lg: "lg", md: "md" }}
-                                                    bgColor={"#164863"}
-                                                    width={"100%"}
-                                                    color={"white"}
-                                                    _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
-                                                >
-                                                    GITHUB
-                                                </Button>
+                                                <Link target='_blank' href="https://github.com/farazshafi/Gedgepping">
+                                                    <Button
+                                                        size={{ base: "xs", lg: "lg", md: "md" }}
+                                                        bgColor={"#164863"}
+                                                        width={"100%"}
+                                                        color={"white"}
+                                                        _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
+                                                    >
+                                                        GITHUB
+                                                    </Button>
+                                                </Link>
                                             </Box>
                                             <Box width={"100%"}>
-                                                <Button
-                                                    onClick={navigateToLive("gedgepping")}
-                                                    size={{ base: "xs", lg: "lg", md: "md" }}
-                                                    bgColor={"#9BBEC8"}
-                                                    width={"100%"}
-                                                    _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
-                                                >
-                                                    LIVE
-                                                </Button>
+                                                <Link target='_blank' href="https://gedgepping.onrender.com/">
+                                                    <Button
+                                                        size={{ base: "xs", lg: "lg", md: "md" }}
+                                                        bgColor={"#9BBEC8"}
+                                                        width={"100%"}
+                                                        _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
+                                                    >
+                                                        LIVE
+                                                    </Button>
+                                                </Link>
                                             </Box>
 
                                         </HStack>
@@ -322,27 +317,31 @@ const Projects = () => {
                                     >
                                         <HStack>
                                             <Box width={"100%"}>
-                                                <Button
-                                                    onClick={navigateToGit("gedgepping")}
-                                                    size={{ base: "xs", lg: "lg", md: "md" }}
-                                                    bgColor={"#164863"}
-                                                    width={"100%"}
-                                                    color={"white"}
-                                                    _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
-                                                >
-                                                    GITHUB
-                                                </Button>
+                                                <Link target='_blank' href="https://github.com/farazshafi/Chaatiko">
+
+                                                    <Button
+                                                        size={{ base: "xs", lg: "lg", md: "md" }}
+                                                        bgColor={"#164863"}
+                                                        width={"100%"}
+                                                        color={"white"}
+                                                        _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
+                                                    >
+                                                        GITHUB
+                                                    </Button>
+                                                </Link>
                                             </Box>
                                             <Box width={"100%"}>
-                                                <Button
-                                                    onClick={navigateToLive("gedgepping")}
-                                                    size={{ base: "xs", lg: "lg", md: "md" }}
-                                                    bgColor={"#9BBEC8"}
-                                                    width={"100%"}
-                                                    _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
-                                                >
-                                                    LIVE
-                                                </Button>
+                                                <Link target='_blank' href="https://chaatiko.onrender.com/">
+
+                                                    <Button
+                                                        size={{ base: "xs", lg: "lg", md: "md" }}
+                                                        bgColor={"#9BBEC8"}
+                                                        width={"100%"}
+                                                        _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
+                                                    >
+                                                        LIVE
+                                                    </Button>
+                                                </Link>
                                             </Box>
 
                                         </HStack>
@@ -493,18 +492,32 @@ const Projects = () => {
                                     >
                                         <HStack>
                                             <Box width={"100%"}>
-                                                <Button
-                                                    onClick={navigateToLive("gedgepping")}
-                                                    size={{ base: "xs", lg: "lg", md: "md" }}
-                                                    bgColor={"#164863"}
-                                                    color={"white"}
-                                                    width={"100%"}
-                                                    _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
-                                                >
-                                                    LIVE
-                                                </Button>
-                                            </Box>
+                                                <Link target='_blank' href="https://github.com/farazshafi/hadithsoul">
 
+                                                    <Button
+                                                        size={{ base: "xs", lg: "lg", md: "md" }}
+                                                        bgColor={"#164863"}
+                                                        color={"white"}
+                                                        width={"100%"}
+                                                        _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
+                                                    >
+                                                        GITHUB
+                                                    </Button>
+                                                </Link>
+                                            </Box>
+                                            <Box width={"100%"}>
+                                                <Link target='_blank' href="https://hadithsoul.com/">
+                                                    <Button
+                                                        size={{ base: "xs", lg: "lg", md: "md" }}
+                                                        bgColor={"#164863"}
+                                                        color={"white"}
+                                                        width={"100%"}
+                                                        _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
+                                                    >
+                                                        LIVE
+                                                    </Button>
+                                                </Link>
+                                            </Box>
                                         </HStack>
 
                                     </Box>

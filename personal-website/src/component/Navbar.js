@@ -1,6 +1,5 @@
 import React from 'react'
-import { Text, Box, Link, Select, Menu, MenuButton, MenuList, MenuItem, Button, HStack } from "@chakra-ui/react"
-import { ChevronDownIcon } from '@chakra-ui/icons'
+import { Text, Box, Link, Menu, MenuButton, MenuList, MenuItem, HStack } from "@chakra-ui/react"
 
 const Navbar = () => {
     return (
