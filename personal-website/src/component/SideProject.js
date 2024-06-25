@@ -1,8 +1,6 @@
 import React from 'react'
 import SectionHead from './SectionHead'
-import { Box, Button, HStack, Text, Link, VStack } from '@chakra-ui/react'
-import { Col, Row } from 'react-bootstrap'
-
+import { Box, Button, HStack, Text, Link } from '@chakra-ui/react'
 const SideProject = () => {
     return (
         <>

@@ -1,4 +1,4 @@
-import { Box, HStack, Text } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 import SectionHead from './SectionHead'
 import lapImg from "../images/laptop.png"
