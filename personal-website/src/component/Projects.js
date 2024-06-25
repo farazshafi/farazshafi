@@ -1,12 +1,10 @@
 import React from 'react'
 import SectionHead from './SectionHead'
-import { Box, Button, HStack, Image, Link, ListItem, Text, UnorderedList } from '@chakra-ui/react'
+import { Box, Button, HStack, Image, Link, ListItem, Text, Tooltip, UnorderedList } from '@chakra-ui/react'
 import GedgeppingImg from "../images/gedgepping.png"
 import ChaatikoImg from "../images/chaatiko.png"
 import HadithsoulImg from "../images/hadithsoul.png"
 import { Row, Col } from "react-bootstrap"
-import { ExternalLinkIcon } from "@chakra-ui/icons"
-
 const Projects = () => {
 
     return (
@@ -158,14 +156,21 @@ const Projects = () => {
                                             </Box>
                                             <Box width={"100%"}>
                                                 <Link target='_blank' href="https://gedgepping.onrender.com/">
+                                                <Tooltip
+                                                    label="Server needs to start, Please wait 1 minutes"
+                                                    placement='bottom-end'
+                                                    hasArrow
+                                                    bg="#164863"
+                                                >
                                                     <Button
                                                         size={{ base: "xs", lg: "lg", md: "md" }}
                                                         bgColor={"#9BBEC8"}
                                                         width={"100%"}
                                                         _hover={{ backgroundColor: "#DDF2FD", color: "black" }}
                                                     >
-                                                        LIVE
+                                                       LIVE
                                                     </Button>
+                                                </Tooltip>
                                                 </Link>
                                             </Box>
 
@@ -332,8 +337,13 @@ const Projects = () => {
                                             </Box>
                                             <Box width={"100%"}>
                                                 <Link target='_blank' href="https://chaatiko.onrender.com/">
-
-                                                    <Button
+                                                <Tooltip
+                                                    label="Server needs to start, Please wait 1 minutes"
+                                                    placement='bottom-end'
+                                                    hasArrow
+                                                    bg="#164863"
+                                                >
+                                                     <Button
                                                         size={{ base: "xs", lg: "lg", md: "md" }}
                                                         bgColor={"#9BBEC8"}
                                                         width={"100%"}
@@ -341,6 +351,7 @@ const Projects = () => {
                                                     >
                                                         LIVE
                                                     </Button>
+                                                </Tooltip>
                                                 </Link>
                                             </Box>
 
@@ -407,7 +418,7 @@ const Projects = () => {
                                             fontWeight={700}
                                             color={"white"}
                                         >
-                                            Hadithsoul (<Link color={"#00AEFF"} fontSize={{ lg: "25px", base: "8px", md: "15px" }} href='https://hadithsoul.com'>www.hadithsoul.com  <ExternalLinkIcon mx='2px' /></Link>)
+                                            Hadithsoul 
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
@@ -507,6 +518,12 @@ const Projects = () => {
                                             </Box>
                                             <Box width={"100%"}>
                                                 <Link target='_blank' href="https://hadithsoul.com/">
+                                                <Tooltip
+                                                    label="Server needs to start, Please wait 1 minutes"
+                                                    placement='bottom-end'
+                                                    hasArrow
+                                                    bg="#164863"
+                                                >
                                                     <Button
                                                         size={{ base: "xs", lg: "lg", md: "md" }}
                                                         bgColor={"#164863"}
@@ -516,6 +533,7 @@ const Projects = () => {
                                                     >
                                                         LIVE
                                                     </Button>
+                                                </Tooltip>
                                                 </Link>
                                             </Box>
                                         </HStack>

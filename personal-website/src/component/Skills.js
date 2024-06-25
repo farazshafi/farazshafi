@@ -12,7 +12,7 @@ import muiLogo from "../images/frontEndSkills/mui.png"
 import reactLogo from "../images/frontEndSkills/react.png"
 import reduxLogo from "../images/frontEndSkills/redux.png"
 import taliwanLogo from "../images/frontEndSkills/taliwan.png"
-import somethingLogo from "../images/frontEndSkills/something.png"
+import JsLogo from "../images/frontEndSkills/javaLogo.png"
 import expressLogo from "../images/backendSkills/express.png"
 import jwtLogo from "../images/backendSkills/jwt.png"
 import mongodbLogo from "../images/backendSkills/mongodb.png"
@@ -21,7 +21,7 @@ import nginxLogo from "../images/backendSkills/nginx.png"
 import nodeLogo from "../images/backendSkills/node.png"
 import npmLogo from "../images/backendSkills/npm.png"
 import pm2Logo from "../images/backendSkills/pm2.png"
-import paypalLogo from "../images/backendSkills/paypal.png"
+import paymentLogo from "../images/backendSkills/paymentLogo.png"
 import restapiLogo from "../images/backendSkills/restapi.png"
 import socketLogo from "../images/backendSkills/socket.png"
 import postmanLogo from "../images/otherSkills/postman.png"
@@ -31,6 +31,7 @@ import githubLogo from "../images/otherSkills/github.png"
 import gitLogo from "../images/otherSkills/git.png"
 import herokuLogo from "../images/otherSkills/heroku.png"
 import onrenderLogo from "../images/otherSkills/onrender.png"
+import { Tooltip } from '@chakra-ui/react'
 
 const Skills = () => {
   return (
@@ -86,42 +87,66 @@ const Skills = () => {
               <VStack spacing={{ lg: "30px", base: "15px", md: "25px" }}>
                 <HStack spacing={{ lg: "25px", base: "10px", md: "15px" }}>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={htmlLogo} alt='html logo' />
+                    <Tooltip bg="#164863" hasArrow label="HTML">
+                      <Image src={htmlLogo} alt='html logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={cssLogo} alt='css logo' />
+                    <Tooltip bg="#164863" hasArrow label="CSS">
+                      <Image src={cssLogo} alt='css logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={reactLogo} alt='React' />
+                    <Tooltip bg="#164863" hasArrow label="JAVA SCRIPT">
+                      <Image src={JsLogo} alt='js' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={muiLogo} alt='mui logo' />
+                    <Tooltip bg="#164863" hasArrow label="REACT">
+                      <Image src={reactLogo} alt='React' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={reduxLogo} alt='redux logo' />
+                    <Tooltip bg="#164863" hasArrow label="MUI">
+                      <Image src={muiLogo} alt='mui logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={taliwanLogo} alt='taliwand logo' />
+                    <Tooltip bg="#164863" hasArrow label="REDUX">
+                      <Image src={reduxLogo} alt='redux logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={figmaLogo} alt='figma logo' />
+                    <Tooltip bg="#164863" hasArrow label="TALIWAN">
+                      <Image src={taliwanLogo} alt='taliwand logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={bootstrapLogo} alt='bootstrap logo' />
+                    <Tooltip bg="#164863" hasArrow label="FIGMA">
+                      <Image src={figmaLogo} alt='figma logo' />
+                    </Tooltip>
+                  </Box>
+                  <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
+                    <Tooltip bg="#164863" hasArrow label="BOOTSTRAP">
+                      <Image src={bootstrapLogo} alt='bootstrap logo' />
+                    </Tooltip>
                   </Box>
                 </HStack>
                 <HStack spacing={{ lg: "25px", base: "10px", md: "15px" }}>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={lottiefilesLogo} alt='lotti logo' />
+                    <Tooltip bg="#164863" hasArrow label="LOTTIEFILES">
+                      <Image src={lottiefilesLogo} alt='lotti logo' />
+                    </Tooltip>  
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={fontawsomeLogo} alt='fontawsome logo' />
+                    <Tooltip bg="#164863" hasArrow label="FONTAWSOME">
+                      <Image src={fontawsomeLogo} alt='fontawsome logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={chakraLogo} alt='chakra ui' />
-                  </Box>
-                  <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-                    <Image src={somethingLogo} alt='something logo' />
+                    <Tooltip bg="#164863" hasArrow label="CHAKRA">
+                      <Image src={chakraLogo} alt='chakra ui' />
+                    </Tooltip>
                   </Box>
                 </HStack>
               </VStack>
@@ -170,50 +195,61 @@ const Skills = () => {
               <VStack spacing={{ lg: "30px", base: "15px" }}>
                 <HStack spacing={{ lg: "25px", base: "10px", md: "15px" }}>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={nodeLogo} alt='logo' />
+                  <Tooltip bg="#164863" hasArrow label="NODE">
+                    <Image src={nodeLogo} alt='NODE logo' />
+                  </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={mongodbLogo} alt='mongodbLogo' />
+                    <Tooltip bg="#164863" hasArrow label="MONGODB">
+                      <Image src={mongodbLogo} alt='mongodbLogo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={mongooseLogo} alt='mongoose' />
+                    <Tooltip bg="#164863" hasArrow label="MONGOOSE">
+                      <Image src={mongooseLogo} alt='mongoose' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={socketLogo} alt='socketLogo' />
+                    <Tooltip bg="#164863" hasArrow label="SOCKET.IO">
+                      <Image src={socketLogo} alt='socketLogo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={expressLogo} alt='expressLogo' />
+                    <Tooltip bg="#164863" hasArrow label="EXPRESS">
+                      <Image src={expressLogo} alt='expressLogo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={pm2Logo} alt='pm2Logo' />
+                    <Tooltip bg="#164863" hasArrow label="PM2">
+                      <Image src={pm2Logo} alt='pm2Logo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={paypalLogo} alt='paypalLogo' />
+                    <Tooltip bg="#164863" hasArrow label="PPAYMENT INTEGRATION">
+                      <Image src={paymentLogo} alt='paymentLogo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={npmLogo} alt='npmLogo' />
+                    <Tooltip bg="#164863" hasArrow label="NPM">
+                      <Image src={npmLogo} alt='npmLogo' />
+                    </Tooltip>
                   </Box>
                 </HStack>
                 <HStack spacing={{ lg: "25px", base: "10px", md: "15px" }}>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={jwtLogo} alt='jwtLogo' />
+                    <Tooltip bg="#164863" hasArrow label="JWT">
+                      <Image src={jwtLogo} alt='jwtLogo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={nginxLogo} alt='nginxLogo' />
+                    <Tooltip bg="#164863" hasArrow label="NGINX">
+                      <Image src={nginxLogo} alt='nginxLogo' />
+                    </Tooltip>
                   </Box>
                   <Box boxSize={{ lg: "120px", base: "30px", md: "50px" }}>
-
-                    <Image src={restapiLogo} alt='restapiLogo' />
+                    <Tooltip bg="#164863" hasArrow label="REST-API">
+                      <Image src={restapiLogo} alt='restapiLogo' />
+                    </Tooltip>
                   </Box>
                 </HStack>
               </VStack>
