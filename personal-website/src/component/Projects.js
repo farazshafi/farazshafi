@@ -504,7 +504,6 @@ const Projects = () => {
                                         <HStack>
                                             <Box width={"100%"}>
                                                 <Link target='_blank' href="https://github.com/farazshafi/hadithsoul">
-
                                                     <Button
                                                         size={{ base: "xs", lg: "lg", md: "md" }}
                                                         bgColor={"#164863"}
@@ -516,7 +515,7 @@ const Projects = () => {
                                                     </Button>
                                                 </Link>
                                             </Box>
-                                            <Box width={"100%"}>
+                                            {/* <Box width={"100%"}>
                                                 <Link target='_blank' href="https://hadithsoul.com/">
                                                 <Tooltip
                                                     label="Server needs to start, Please wait 1 minutes"
@@ -535,7 +534,7 @@ const Projects = () => {
                                                     </Button>
                                                 </Tooltip>
                                                 </Link>
-                                            </Box>
+                                            </Box> */}
                                         </HStack>
 
                                     </Box>
