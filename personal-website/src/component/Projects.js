@@ -51,24 +51,27 @@ const Projects = () => {
                                     <Box>
                                         <Text
                                             fontFamily={"Poppins"}
-                                            fontSize={{ lg: '30px', base: "11px", md: "20px" }}
+                                            fontSize={{ lg: '30px', base: "15px", md: "20px" }}
                                             fontWeight={700}
                                             color={"white"}
                                         >
                                             GEDGEPPING (E-commerce)
+                                            
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
-                                            fontSize={{ lg: '22px', base: "9px", md: "15px" }}
+                                            fontSize={{ lg: '22px', base: "13px", md: "15px" }}
                                             mt={{ lg: "8px" }}
                                             color={"white"}
 
                                         >
-                                            Gadgets E-Commerce with Admin Control
+                                            <i>
+                                            Gadgets: E-Commerce with Admin Control
+                                            </i>
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
-                                            fontSize={{ lg: '20px', base: "8px", md: "13px" }}
+                                            fontSize={{ lg: '20px', base: "12px", md: "13px" }}
                                             mt={{ lg: "22px", base: "5px" }}
                                             color={"white"}
 
@@ -79,8 +82,8 @@ const Projects = () => {
                                             fontFamily={"Poppins"}
                                             fontSize={{ lg: '30px', base: "9px", md: "15px" }}
                                             fontWeight={700}
-                                            mb={{ lg: "22px", base: "2px" }}
-                                            mt={{ lg: "22px", base: "5px" }}
+                                            mb={{ lg: "22px", base: "5px" }}
+                                            mt={{ lg: "22px", base: "10px" }}
                                             color={"white"}
                                         >
                                             Used Technology
@@ -233,7 +236,7 @@ const Projects = () => {
                                     <Box>
                                         <Text
                                             fontFamily={"Poppins"}
-                                            fontSize={{ lg: '30px', base: "11px", md: "20px" }}
+                                            fontSize={{ lg: '30px', base: "15px", md: "20px" }}
                                             fontWeight={700}
                                             color={"white"}
                                         >
@@ -241,16 +244,18 @@ const Projects = () => {
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
-                                            fontSize={{ lg: '22px', base: "9px", md: "15px" }}
+                                            fontSize={{ lg: '22px', base: "13px", md: "15px" }}
                                             mt={{ lg: "8px" }}
                                             color={"white"}
 
                                         >
-                                            Making real-time conversations accessible with 'Chaatiko'
+                                            <i>
+                                                Making real-time conversations accessible with 'Chaatiko'
+                                            </i>
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
-                                            fontSize={{ lg: '20px', base: "8px", md: "13px" }}
+                                            fontSize={{ lg: '20px', base: "12px", md: "13px" }}
                                             mt={{ lg: "22px", base: "5px" }}
                                             color={"white"}
                                         >
@@ -414,7 +419,7 @@ const Projects = () => {
                                     <Box>
                                         <Text
                                             fontFamily={"Poppins"}
-                                            fontSize={{ lg: '30px', base: "11px", md: "20px" }}
+                                            fontSize={{ lg: '30px', base: "15px", md: "20px" }}
                                             fontWeight={700}
                                             color={"white"}
                                         >
@@ -422,16 +427,18 @@ const Projects = () => {
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
-                                            fontSize={{ lg: '22px', base: "9px", md: "15px" }}
+                                            fontSize={{ lg: '22px', base: "13px", md: "15px" }}
                                             mt={{ lg: "8px" }}
                                             color={"white"}
 
                                         >
-                                            Guiding you to Jannah through knowledge and inspiration.
+                                            <i>
+                                                Guiding you to Jannah through knowledge and inspiration.
+                                            </i>
                                         </Text>
                                         <Text
                                             fontFamily={"Sniglet"}
-                                            fontSize={{ lg: '20px', base: "8px", md: "13px" }}
+                                            fontSize={{ lg: '20px', base: "12px", md: "13px" }}
                                             mt={{ lg: "22px", base: "5px" }}
                                             color={"white"}
                                         >

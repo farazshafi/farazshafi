@@ -72,13 +72,13 @@ const About = () => {
                     >
                         <Text
                             fontFamily={"Timmana"}
-                            fontSize={{ lg: "45px", base: "13px", md: "20px" }}
+                            fontSize={{ lg: "45px", base: "17px", md: "20px" }}
                         >
                             ABOUT
                         </Text>
                         <Text
                             fontFamily={"Sniglet"}
-                            fontSize={{ lg: "20px", base: "8px", md: "12px" }}
+                            fontSize={{ lg: "20px", base: "13px", md: "12px" }}
                         >
                             I'm a self-taught MERN web developer passionate about crafting userfriendly web applications. With a focus on clean, efficient code and a commitment to staying current with industry trends, I thrive in collaborative environments. My goal is to contribute my expertise to innovative projects and help businesses succeed in the digital world.
                         </Text>
