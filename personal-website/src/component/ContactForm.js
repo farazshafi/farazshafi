@@ -99,7 +99,8 @@ const ContactForm = () => {
 
     return (
         <>
-            <Box
+            <Box 
+                id={"contact"}
                 width={"100%"}
                 bgColor={"white"}
                 pl={{ lg: "120px", base: "5%" }}

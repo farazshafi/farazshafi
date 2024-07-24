@@ -10,6 +10,8 @@ import Education from './component/Education';
 import Footer from './component/Footer';
 import ScrollToTopBtn from './component/ScrollToTopBtn';
 import ContactForm from "./component/ContactForm";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 

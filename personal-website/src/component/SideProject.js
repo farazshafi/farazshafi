@@ -38,7 +38,7 @@ const SideProject = () => {
                                     size={{ lg: "lg", base: "xs", md: "sm" }}
                                     _hover={{ color: "black", background: "#9BBEC8" }}
                                     bgColor={"#164863"}>
-                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                    <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
                                 </Button>
                             </Link>
                             <Link href='https://farazshafi.github.io/keeper-app/'>
@@ -48,7 +48,7 @@ const SideProject = () => {
                                     size={{ lg: "lg", base: "xs", md: "sm" }}
                                     _hover={{ color: "black", background: "#9BBEC8" }}
                                     bgColor={"#164863"}>
-                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                    <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
                                 </Button>
                             </Link>
                         </Box>
@@ -93,7 +93,7 @@ const SideProject = () => {
                                     size={{ lg: "lg", base: "xs", md: "sm" }}
                                     _hover={{ color: "black", background: "#9BBEC8" }}
                                     bgColor={"#164863"}>
-                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                    <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
                                 </Button>
                             </Link>
                             <Link href='https://farazshafi.github.io/netflix-clone/'>
@@ -103,7 +103,7 @@ const SideProject = () => {
                                     size={{ lg: "lg", base: "xs", md: "sm" }}
                                     _hover={{ color: "black", background: "#9BBEC8" }}
                                     bgColor={"#164863"}>
-                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                    <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
                                 </Button>
                             </Link>
                         </Box>
@@ -148,7 +148,7 @@ const SideProject = () => {
                                 size={{ lg: "lg", base: "xs", md: "sm" }}
                                 _hover={{ color: "black", background: "#9BBEC8" }}
                                 bgColor={"#164863"}>
-                                <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
                             </Button>
                             </Link>
                             <Link href='https://farazshafi.github.io/Driving_School_Demo/'>                                    <Button
@@ -157,7 +157,7 @@ const SideProject = () => {
                                 size={{ lg: "lg", base: "xs", md: "sm" }}
                                 _hover={{ color: "black", background: "#9BBEC8" }}
                                 bgColor={"#164863"}>
-                                <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
                             </Button>
                             </Link>
                         </Box>
@@ -202,7 +202,7 @@ const SideProject = () => {
                                     size={{ lg: "lg", base: "xs", md: "sm" }}
                                     _hover={{ color: "black", background: "#9BBEC8" }}
                                     bgColor={"#164863"}>
-                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
+                                    <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>GITHUB</Text>
                                 </Button>
                             </Link>
                             <Link href='https://farazshafi.github.io/memory-game/'>
@@ -212,7 +212,7 @@ const SideProject = () => {
                                     size={{ lg: "lg", base: "xs", md: "sm" }}
                                     _hover={{ color: "black", background: "#9BBEC8" }}
                                     bgColor={"#164863"}>
-                                    <Text fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
+                                    <Text mt={{base:"15px"}} fontSize={{ base: "7px", lg: "20px", md: "13px" }}>LIVE</Text>
                                 </Button>
                             </Link>
                         </Box>

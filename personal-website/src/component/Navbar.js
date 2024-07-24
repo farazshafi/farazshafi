@@ -95,7 +95,7 @@ const Navbar = () => {
                         </Link>
                         <Link href='#contact'>
                             <Box
-                                mt={{ base: "4px", lg: "4px", md: "7px" }}
+                                mt={{ base: "-4px", lg: "4px", md: "7px" }}
                                 pl={{ base: "5px", lg: "27px" }}
                                 pr={{ base: "5px", lg: "27px" }}
                                 pt={{ base: "2px", lg: "8px" }}

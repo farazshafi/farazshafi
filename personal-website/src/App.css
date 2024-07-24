@@ -9,19 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Styles for medium screens (min-width: 768px and max-width: 1199px) */
-@media (min-width: 768px) and (max-width: 1199px) {
-  #contact-icon {
-    font-size: 30px;
-  }
-}
-
-/* Styles for small screens (max-width: 767px) */
-@media (max-width: 767px) {
-  #contact-icon {
-    font-size: 20px;
-  }
-}
 
 .scroll-to-top-button {
   /* display: none; */
@@ -47,4 +34,40 @@ html {
 .scroll-to-top-button:hover {
   background-color: #000000;
   color: white;
+}
+
+.skills-col{
+  margin-bottom: 35px;
+}
+
+#skills-container{
+  padding: 5%;
+}
+
+
+/* Styles for small screens (max-width: 767px) */
+@media (max-width: 767px) {
+  #contact-icon {
+    font-size: 20px;
+  }
+  .skills-col{
+    margin-bottom: 10px;
+  }
+  #skills-container{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+  }
+  
+}
+
+
+
+/* Styles for medium screens (min-width: 768px and max-width: 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  #contact-icon {
+    font-size: 30px;
+  }
 }

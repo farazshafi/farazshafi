@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Flex, Image, Input, InputGroup, InputLeftAddon, Stack, Text, useClipboard } from '@chakra-ui/react';
-import profile from "../images/profile circle.png"
+import profile from "../images/aboutpng.webp"
 import SectionHead from './SectionHead';
 
 const About = () => {
@@ -25,6 +25,7 @@ const About = () => {
                     width={{ lg: "275px", base: "110px", md: "170px" }}
                 >
                     <Image
+                        borderRadius={"50%"}
                         src={profile}
                     />
                 </Box>

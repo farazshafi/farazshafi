@@ -1,6 +1,6 @@
 import React from 'react'
 import bgImage from "../images/background image.png"
-import profile from "../images/profile figma.png"
+import profile from "../images/introImage.webp"
 import { Box, Image, Text } from '@chakra-ui/react';
 
 const Intro = () => {
@@ -54,8 +54,9 @@ const Intro = () => {
                     <Image
                         src={profile}
                         alt='profile'
+                    
                         width={{ lg: "301px", base: "137px", md: "210px" }}
-                        mt={{ lg: "82px", md: "20px", base: "20px" }}
+                        mt={{ lg: "82px", md: "20px", base: "35px" }}
                         // height={"353px"} 
                         ml={"auto"}
                     />

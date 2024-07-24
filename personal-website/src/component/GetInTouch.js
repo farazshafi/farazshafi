@@ -9,7 +9,6 @@ const GetInTouch = ({ col }) => {
                 display={"flex"}
                 alignItems={"center"}
                 justifyContent={"center"}
-                id={"contact"}
             >
                 <Box
                     bgColor={col}
