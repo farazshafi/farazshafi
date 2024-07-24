@@ -70,6 +70,7 @@ const About = () => {
                         pr={{ lg: "33px", base: "10px" }}
                         pl={{ lg: "33px", base: "10px" }}
                     >
+                       
                         <Text
                             fontFamily={"Timmana"}
                             fontSize={{ lg: "45px", base: "17px", md: "20px" }}

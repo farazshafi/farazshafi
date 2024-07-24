@@ -9,6 +9,7 @@ import Skills from './component/Skills';
 import Education from './component/Education';
 import Footer from './component/Footer';
 import ScrollToTopBtn from './component/ScrollToTopBtn';
+import ContactForm from "./component/ContactForm";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <SideProject />
         <Skills />
         <Education />
+        <ContactForm />
         <Footer />
       </div>
     </>
