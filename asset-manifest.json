@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c492b7c.css",
-    "main.js": "/static/js/main.1fc1f16e.js",
+    "main.css": "/static/css/main.db4c363f.css",
+    "main.js": "/static/js/main.732cbe93.js",
     "static/media/background image.png": "/static/media/background image.7de454c76c017ed0c0bf.png",
-    "static/media/profile figma.png": "/static/media/profile figma.78e25ad2d583c7c9977a.png",
-    "static/media/profile circle.png": "/static/media/profile circle.85f51ad756aea1e47cac.png",
     "static/media/laptop.png": "/static/media/laptop.cd21eaa2a19d6aeb4079.png",
     "static/media/hadithsoul.png": "/static/media/hadithsoul.9ed2d0cfd98c64f93626.png",
+    "static/media/aboutpng.webp": "/static/media/aboutpng.7027a0f7b938ac86f05d.webp",
     "static/media/gedgepping.png": "/static/media/gedgepping.ff60d6a7b504f40f12ff.png",
     "static/media/chaatiko.png": "/static/media/chaatiko.7170e9127d060922acaa.png",
     "static/media/white.png": "/static/media/white.a1e84107c312c5c97c15.png",
+    "static/media/introImage.webp": "/static/media/introImage.7b24f7ff82a4b7f5e6e1.webp",
     "static/media/paymentLogo.png": "/static/media/paymentLogo.e63d13b17459ddb863e3.png",
     "static/media/pm2.png": "/static/media/pm2.6df55df59707531f3145.png",
     "index.html": "/index.html",
-    "main.9c492b7c.css.map": "/static/css/main.9c492b7c.css.map",
-    "main.1fc1f16e.js.map": "/static/js/main.1fc1f16e.js.map"
+    "main.db4c363f.css.map": "/static/css/main.db4c363f.css.map",
+    "main.732cbe93.js.map": "/static/js/main.732cbe93.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c492b7c.css",
-    "static/js/main.1fc1f16e.js"
+    "static/css/main.db4c363f.css",
+    "static/js/main.732cbe93.js"
   ]
 }
