@@ -53,7 +53,6 @@
 
 <img 
   src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/coding.gif"
-  width="280"
 />
     </td>
   </tr>
