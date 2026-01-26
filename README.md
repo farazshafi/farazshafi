@@ -51,10 +51,9 @@
 <br/><br/>
 
 <img 
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FACC15&center=true&vCenter=true&width=250&lines=Building+Real+Systems;Clean+Architecture;Production+Focused"
-  alt="Developer focus"
+  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/coding.gif"
+  width="280"
 />
-
     </td>
   </tr>
 </table>
