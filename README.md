@@ -16,17 +16,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-Expert-FACC15?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-Advanced-1E90FF?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/React-Expert-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-Advanced-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-Expert-339933?style=for-the-badge&logo=node.js&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/System_Design-Strong-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Real--Time_Systems-Production--Ready-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Auth_%26_Security-Production--Grade-111827?style=for-the-badge" />
-</p>
 
 ## 🚀 **ABOUT ME**
 
