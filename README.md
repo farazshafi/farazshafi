@@ -18,6 +18,9 @@
   <img src="https://img.shields.io/badge/JavaScript-Expert-FACC15?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/React-Expert-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-Advanced-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Node.js-Expert-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-Production--Ready-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
