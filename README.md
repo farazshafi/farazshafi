@@ -14,7 +14,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/216656950-4c8d2b7e-3b1a-4a7b-b1ff-38e5b4c0c6e6.gif" width="80" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-Expert-FACC15?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/React-Expert-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-Advanced-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -23,7 +23,12 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-Expert-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-Production--Ready-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p> -->
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,react,nextjs,nodejs,mongodb&theme=dark" />
 </p>
+
 
 
 
