@@ -25,32 +25,35 @@
   <img src="https://img.shields.io/badge/MongoDB-Production--Ready-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
 
-
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
     <td width="60%" valign="top">
 
-## 🚀 **ABOUT ME**
+<h2>🚀 ABOUT ME</h2>
 
-- ⚡ **Production-ready Full-Stack JavaScript Engineer** with real-world system ownership  
-- 🧠 Strong focus on **scalable architecture, performance, and clean code**  
-- 🛠 Experienced in **React, Next.js, Node.js**, and real-time application development  
-- 🔐 Built and maintained **secure, auth-heavy, production-grade platforms**  
-- 🚢 Comfortable taking products from **design to deployment and long-term maintenance**  
-- 📍 Based in **India**
+<ul>
+  <li>⚡ <strong>Production-ready Full-Stack JavaScript Engineer</strong> with real-world system ownership</li>
+  <li>🧠 Strong focus on <strong>scalable architecture, performance, and clean code</strong></li>
+  <li>🛠 Experienced in <strong>React, Next.js, Node.js</strong>, and real-time application development</li>
+  <li>🔐 Built and maintained <strong>secure, auth-heavy, production-grade platforms</strong></li>
+  <li>🚢 Comfortable taking products from <strong>design to deployment and long-term maintenance</strong></li>
+  <li>📍 Based in <strong>India</strong></li>
+</ul>
 
-    </td>
+  </td>
 
-    <td width="40%" align="center" valign="middle">
+  <td width="40%" align="center" valign="middle">
 
 <img
-  src="https://camo.githubusercontent.com/660e8839e806a7a23f61b155be2e078a1cbd67f33c65b38994f8318cbd9e50f6/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e676966"
+  src="https://your-image-url-here"
   width="420"
+  alt="Developer at work"
 />
 
-    </td>
+  </td>
   </tr>
 </table>
+
 
 
 
