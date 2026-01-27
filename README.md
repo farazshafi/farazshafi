@@ -58,13 +58,8 @@
 <h2>🛠 Tech Stack</h2>
 
 <h4>💻 Languages & Frameworks</h4>
-<div style="
-  width:46px;
-  height:46px;
-  background:red;
-  display:inline-block;
-  border-radius:8px;
-">&nbsp;</div>
+<img src="https://img.shields.io/badge/-red-red?style=flat-square" />
+
 
 
 
