@@ -114,3 +114,17 @@
 <p>
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis&theme=dark" />
 </p>
+
+<h2>📊 GITHUB ANALYTICS</h2>
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=farazshafi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=FACC15&title_color=FACC15"
+    height="170"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=farazshafi&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=FACC15"
+    height="170"
+  />
+</p>
+
