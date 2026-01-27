@@ -58,10 +58,7 @@
 <h2>🛠 Tech Stack</h2>
 
 <h4>💻 Languages & Frameworks</h4>
-<img src="https://img.shields.io/badge/-JS-FACC15?style=flat-square&logo=javascript&logoColor=000000" height="46"/>
-<img src="https://img.shields.io/badge/-React-111?style=flat-square&logo=react&logoColor=61DAFB" height="46"/>
-<img src="https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" height="46"/>
-<img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" height="46"/>
+<img src="https://camo.githubusercontent.com/0135067……6e733f6…" height="40" alt="Languages & Frameworks" data-canonical-src="https://skillicons.dev/icons?i=js,react,nextjs,nodejs,express,c" style="max-width: 100%; height: auto; max-height: 40px;">
 
 
 
