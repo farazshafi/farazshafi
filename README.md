@@ -55,35 +55,33 @@
 </table>
 
 <!-- TECH STACK -->
-<h2>🛠 TECH STACK</h2>
+<h2>🛠 Tech Stack</h2>
 
-<div style="
-  background:#0f0f0f;
-  border:1px solid #FACC15;
-  border-radius:12px;
-  padding:16px;
-  color:white;
-">
-
-<!-- Languages -->
-<p style="margin:6px 0;">
-  <strong style="color:#FACC15;">Languages:</strong>
-  JavaScript, TypeScript, Go
+<!-- Languages & Frameworks -->
+<h4>💻 Languages & Frameworks</h4>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="40"/>
 </p>
 
-<!-- Frameworks -->
-<p style="margin:6px 0;">
-  <strong style="color:#FACC15;">Frameworks:</strong>
-  React, Next.js, Node.js, Express
+<!-- Databases & Tools -->
+<h4>🗄 Databases & Tools</h4>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40"/>
 </p>
 
-<!-- Database & DevOps -->
-<p style="margin:6px 0;">
-  <strong style="color:#FACC15;">Database & DevOps:</strong>
-  MongoDB, PostgreSQL, Redis · Docker, Kubernetes, Nginx, AWS
+<!-- Cloud & Design -->
+<h4>☁️ Cloud & Design</h4>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40"/>
 </p>
-
-</div>
-
-
-
