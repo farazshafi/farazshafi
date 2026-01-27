@@ -76,6 +76,14 @@
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
 </p>
 
+<!-- CLOUD & PLATFORMS -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Cloud & Platforms</h4>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,digitalocean,vercel,render&theme=dark" />
+</p>
+
+
 <!-- LIBRARIES & TOOLING -->
 <h4 style="color:#FACC15; margin-bottom:6px;">Libraries & Tooling</h4>
 
