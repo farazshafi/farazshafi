@@ -58,22 +58,25 @@
 <h2>🧰 TECH STACK</h2>
 
 <!-- LANGUAGES -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Languages</h4>
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,go&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,ts,go,python&theme=dark" />
 </p>
 
 <!-- FRAMEWORKS -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Frameworks</h4>
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express&theme=dark" />
 </p>
 
 <!-- DATABASE & DEVOPS -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Database & DevOps</h4>
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx,aws&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,digitalocean,nginx&theme=dark" />
 </p>
 
-<!-- YELLOW ACCENT LINE -->
 <hr style="border: 1px solid #FACC15; opacity: 0.4;" />
+
 
 
 
