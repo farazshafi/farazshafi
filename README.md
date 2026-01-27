@@ -79,11 +79,16 @@
 <!-- LIBRARIES & TOOLING -->
 <h4 style="color:#FACC15; margin-bottom:6px;">Libraries & Tooling</h4>
 
+<!-- Icon-supported tools -->
 <p>
   <img src="https://skillicons.dev/icons?i=redux,tailwind,materialui,graphql&theme=dark" />
 </p>
 
+<!-- Text-based tools (no skillicons support) -->
 <p>
-  <img src="https://skillicons.dev/icons?i=socketio,apollo,framer,gsap&theme=dark" />
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Zod-3068B7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge" />
 </p>
-
