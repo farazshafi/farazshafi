@@ -40,20 +40,11 @@
 - 🚢 Comfortable taking products from **design to deployment and long-term maintenance**  
 - 📍 Based in **India**
 
-   ## 🚀 **ABOUT ME**
-
-- ⚡ **Production-ready Full-Stack JavaScript Engineer** with real-world system ownership  
-- 🧠 Strong focus on **scalable architecture, performance, and clean code**  
-- 🛠 Experienced in **React, Next.js, Node.js**, and real-time application development  
-- 🔐 Built and maintained **secure, auth-heavy, production-grade platforms**  
-- 🚢 Comfortable taking products from **design to deployment and long-term maintenance**  
-- 📍 Based in **India**
-
 <br/>
 
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/coding.gif"
+    src="https://camo.githubusercontent.com/660e8839e806a7a23f61b155be2e078a1cbd67f33c65b38994f8318cbd9e50f6/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e676966"
     width="450"
     alt="Coding animation"
   />
