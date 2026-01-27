@@ -57,29 +57,54 @@
 <!-- TECH STACK -->
 <h2>🛠 Tech Stack</h2>
 
+<style>
+  .tech-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tech-card {
+    background: #111;
+    border: 1px solid #FACC15;
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+  }
+
+  .tech-card img {
+    height: 34px;
+    width: auto;
+  }
+</style>
+
 <h4>💻 Languages & Frameworks</h4>
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-</p>
+<div class="tech-wrap">
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"/></div>
+</div>
 
 <h4>🗄 Databases & Tools</h4>
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-</p>
+<div class="tech-wrap">
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/></div>
+</div>
 
 <h4>☁️ Cloud & Design</h4>
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
-</p>
+<div class="tech-wrap">
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"/></div>
+  <div class="tech-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/></div>
+</div>
 
 
