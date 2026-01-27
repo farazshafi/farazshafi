@@ -74,6 +74,14 @@
 
 <p>
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
+</p>
+
+<!-- CLOUD & OTHERS -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Cloud & Others</h4>
+
+<p>
+  <!-- skillicons-supported -->
+  <img src="https://skillicons.dev/icons?i=aws,vercel,git,githubactions,linux&theme=dark" />
 
   <!-- DigitalOcean (manual SVG) -->
   <img
@@ -82,7 +90,16 @@
     style="margin-left:6px;"
     alt="DigitalOcean"
   />
+
+  <!-- Render (manual SVG) -->
+  <img
+    src="https://www.vectorlogo.zone/logos/render/render-icon.svg"
+    height="48"
+    style="margin-left:6px;"
+    alt="Render"
+  />
 </p>
+
 
 
 
