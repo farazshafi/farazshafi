@@ -76,39 +76,40 @@
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
 </p>
 
-<h4 style="color:#FACC15; margin-bottom:6px;">Libraries & Tooling</h4>
+<h4 style="color:#FACC15; margin-bottom:8px;">Libraries & Tooling</h4>
 
 <p>
   <!-- Redux Toolkit -->
-  <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" height="42" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40"/>
 
   <!-- Zustand -->
-  <img src="https://raw.githubusercontent.com/pmndrs/zustand/main/docs/logo.svg" height="42" />
+  <img src="https://raw.githubusercontent.com/pmndrs/zustand/main/docs/logo.svg" height="40"/>
 
   <!-- Zod -->
-  <img src="https://raw.githubusercontent.com/colinhacks/zod/master/logo.svg" height="42" />
+  <img src="https://unpkg.com/simple-icons@v9/icons/zod.svg" height="40"/>
 
   <!-- Tailwind CSS -->
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" height="42" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40"/>
 
   <!-- Material UI -->
-  <img src="https://www.vectorlogo.zone/logos/material-ui/material-ui-icon.svg" height="42" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="40"/>
 
   <!-- Socket.io -->
-  <img src="https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg" height="42" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" height="40"/>
 
   <!-- Apollo GraphQL -->
-  <img src="https://www.vectorlogo.zone/logos/apollographql/apollographql-icon.svg" height="42" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="40"/>
 
-  <!-- BullMQ -->
-  <img src="https://www.vectorlogo.zone/logos/bullmq/bullmq-icon.svg" height="42" />
+  <!-- BullMQ (fallback as Redis – acceptable & common) -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40"/>
 
   <!-- Chart.js -->
-  <img src="https://www.vectorlogo.zone/logos/chartjs/chartjs-icon.svg" height="42" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" height="40"/>
 
   <!-- Framer Motion -->
-  <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" height="42" />
+  <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" height="40"/>
 </p>
+
 
 
 
