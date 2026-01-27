@@ -54,6 +54,36 @@
   </tr>
 </table>
 
+<!-- TECH STACK -->
+<h2>🛠 TECH STACK</h2>
+
+<div style="
+  background:#0f0f0f;
+  border:1px solid #FACC15;
+  border-radius:12px;
+  padding:16px;
+  color:white;
+">
+
+<!-- Languages -->
+<p style="margin:6px 0;">
+  <strong style="color:#FACC15;">Languages:</strong>
+  JavaScript, TypeScript, Go
+</p>
+
+<!-- Frameworks -->
+<p style="margin:6px 0;">
+  <strong style="color:#FACC15;">Frameworks:</strong>
+  React, Next.js, Node.js, Express
+</p>
+
+<!-- Database & DevOps -->
+<p style="margin:6px 0;">
+  <strong style="color:#FACC15;">Database & DevOps:</strong>
+  MongoDB, PostgreSQL, Redis · Docker, Kubernetes, Nginx, AWS
+</p>
+
+</div>
 
 
 
