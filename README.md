@@ -128,3 +128,18 @@
   />
 </p>
 
+<h2>📈 CODE ACTIVITY</h2>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=FarazShafi&theme=tokyonight&hide_border=true&background=00000000&ring=FACC15&fire=FACC15&currStreakLabel=FACC15"
+    height="180"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=FarazShafi&bg_color=00000000&color=FACC15&line=FACC15&point=FFFFFF&area=true&hide_border=true"
+  />
+</p>
+
