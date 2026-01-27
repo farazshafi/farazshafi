@@ -58,10 +58,11 @@
 <h2>🛠 Tech Stack</h2>
 
 <h4>💻 Languages & Frameworks</h4>
-<img src="https://img.shields.io/badge/--FACC15?style=for-the-badge&logo=javascript&logoColor=000000" height="46"/>&nbsp;
-<img src="https://img.shields.io/badge/--111?style=for-the-badge&logo=react&logoColor=61DAFB" height="46"/>&nbsp;
-<img src="https://img.shields.io/badge/--000?style=for-the-badge&logo=nextdotjs&logoColor=white" height="46"/>&nbsp;
-<img src="https://img.shields.io/badge/--339933?style=for-the-badge&logo=node.js&logoColor=white" height="46"/>
+![](https://img.shields.io/badge/--FACC15?style=for-the-badge&logo=javascript&logoColor=000000)
+![](https://img.shields.io/badge/--111?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/--000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![](https://img.shields.io/badge/--339933?style=for-the-badge&logo=node.js&logoColor=white)
+
 
 
 
