@@ -55,13 +55,27 @@
 </table>
 
 <!-- TECH STACK -->
-<h2>🛠 Tech Stack</h2>
+<h2>🧰 TECH STACK</h2>
 
-<h4>💻 Languages & Frameworks</h4>
-![](https://img.shields.io/badge/--FACC15?style=for-the-badge&logo=javascript&logoColor=000000)
-![](https://img.shields.io/badge/--111?style=for-the-badge&logo=react&logoColor=61DAFB)
-![](https://img.shields.io/badge/--000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![](https://img.shields.io/badge/--339933?style=for-the-badge&logo=node.js&logoColor=white)
+<!-- LANGUAGES -->
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,go&theme=dark" />
+</p>
+
+<!-- FRAMEWORKS -->
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express&theme=dark" />
+</p>
+
+<!-- DATABASE & DEVOPS -->
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx,aws&theme=dark" />
+</p>
+
+<!-- YELLOW ACCENT LINE -->
+<hr style="border: 1px solid #FACC15; opacity: 0.4;" />
+
+
 
 
 
