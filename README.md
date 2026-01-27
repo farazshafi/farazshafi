@@ -81,7 +81,7 @@
 
 <p>
   <!-- skillicons-supported -->
-  <img src="https://skillicons.dev/icons?i=aws,vercel,git,githubactions,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,vercel,git,linux&theme=dark" />
 
   <!-- DigitalOcean (manual SVG) -->
   <img
