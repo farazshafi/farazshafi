@@ -79,44 +79,37 @@
 <h4 style="color:#FACC15; margin-bottom:6px;">Libraries & Tooling</h4>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=redux,graphql,tailwind,materialui,chartjs&theme=dark" />
-</p>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=socketio&theme=dark" />
+  <!-- Redux Toolkit -->
+  <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" height="42" />
 
   <!-- Zustand -->
-  <img
-    src="https://raw.githubusercontent.com/pmndrs/zustand/main/docs/logo.svg"
-    height="48"
-    style="margin-left:6px;"
-    alt="Zustand"
-  />
+  <img src="https://raw.githubusercontent.com/pmndrs/zustand/main/docs/logo.svg" height="42" />
 
   <!-- Zod -->
-  <img
-    src="https://raw.githubusercontent.com/colinhacks/zod/master/logo.svg"
-    height="48"
-    style="margin-left:6px;"
-    alt="Zod"
-  />
+  <img src="https://raw.githubusercontent.com/colinhacks/zod/master/logo.svg" height="42" />
+
+  <!-- Tailwind CSS -->
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" height="42" />
+
+  <!-- Material UI -->
+  <img src="https://www.vectorlogo.zone/logos/material-ui/material-ui-icon.svg" height="42" />
+
+  <!-- Socket.io -->
+  <img src="https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg" height="42" />
+
+  <!-- Apollo GraphQL -->
+  <img src="https://www.vectorlogo.zone/logos/apollographql/apollographql-icon.svg" height="42" />
 
   <!-- BullMQ -->
-  <img
-    src="https://www.vectorlogo.zone/logos/bullmq/bullmq-icon.svg"
-    height="48"
-    style="margin-left:6px;"
-    alt="BullMQ"
-  />
+  <img src="https://www.vectorlogo.zone/logos/bullmq/bullmq-icon.svg" height="42" />
+
+  <!-- Chart.js -->
+  <img src="https://www.vectorlogo.zone/logos/chartjs/chartjs-icon.svg" height="42" />
 
   <!-- Framer Motion -->
-  <img
-    src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg"
-    height="48"
-    style="margin-left:6px;"
-    alt="Framer Motion"
-  />
+  <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" height="42" />
 </p>
+
 
 
 
