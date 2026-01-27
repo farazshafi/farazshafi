@@ -71,11 +71,19 @@
 
 <!-- DATABASE & DEVOPS -->
 <h4 style="color:#FACC15; margin-bottom:6px;">Database & DevOps</h4>
+
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,digitalocean,nginx&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
+
+  <!-- DigitalOcean (manual SVG) -->
+  <img
+    src="https://www.vectorlogo.zone/logos/digitalocean/digitalocean-icon.svg"
+    height="48"
+    style="margin-left:6px;"
+    alt="DigitalOcean"
+  />
 </p>
 
-<hr style="border: 1px solid #FACC15; opacity: 0.4;" />
 
 
 
