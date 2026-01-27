@@ -57,55 +57,29 @@
 <!-- TECH STACK -->
 <h2>🛠 Tech Stack</h2>
 
-<style>
-  .stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-  .stack-box {
-    background: #111;
-    border: 1px solid #FACC15;
-    border-radius: 10px;
-    padding: 10px;
-    width: 52px;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .stack-box img {
-    width: 32px;
-    height: 32px;
-  }
-</style>
-
 <h4>💻 Languages & Frameworks</h4>
-<div class="stack">
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/></div>
-  <div class="stack-box">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-         style="filter: invert(1);" />
-  </div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"/></div>
-</div>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+</p>
 
 <h4>🗄 Databases & Tools</h4>
-<div class="stack">
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/></div>
-</div>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+</p>
 
 <h4>☁️ Cloud & Design</h4>
-<div class="stack">
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"/></div>
-  <div class="stack-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/></div>
-</div>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="34" style="background:#111;border:1px solid #FACC15;border-radius:8px;padding:6px;"/>
+</p>
+
 
