@@ -69,12 +69,13 @@
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express&theme=dark" />
 </p>
 
-<!-- DATABASE & DEVOPS -->
-<h4 style="color:#FACC15; margin-bottom:6px;">Database & DevOps</h4>
+<!-- DATABASES & MESSAGING -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Databases</h4>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis&theme=dark" />
 </p>
+
 
 <!-- CLOUD & PLATFORMS -->
 <h4 style="color:#FACC15; margin-bottom:6px;">Cloud & Platforms</h4>
