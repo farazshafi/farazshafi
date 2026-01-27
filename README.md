@@ -131,7 +131,9 @@
 <h2>📈 CODE ACTIVITY</h2>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FarazShafi&theme=tokyonight" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FarazShafi&theme=github_dark"
+  />
 </p>
 
 <p align="center">
