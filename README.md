@@ -131,16 +131,12 @@
 <h2>📈 CODE ACTIVITY</h2>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=FarazShafi&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=FACC15"
-    height="170"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FarazShafi&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=FarazShafi&bg_color=00000000&color=FACC15&line=FACC15&point=FFFFFF&area=true&hide_border=true"
-  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FarazShafi&bg_color=00000000&color=FACC15&line=FACC15&point=FFFFFF&area=true&hide_border=true" />
 </p>
+
 
 
