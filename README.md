@@ -59,8 +59,8 @@
 
 <h4>💻 Languages & Frameworks</h4>
 <div style="
-  width:46px;
-  height:46px;
+  width:20px;
+  height:20px;
   background:red;
 ">
   <img 
