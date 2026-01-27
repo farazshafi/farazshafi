@@ -32,13 +32,13 @@
 <h2>🚀 ABOUT ME</h2>
 
 <ul>
-  <li>⚡ <strong>Production-ready Full-Stack JavaScript Engineer</strong> with real-world system ownership</li>
-  <li>🧠 Strong focus on <strong>scalable architecture, performance, and clean code</strong></li>
-  <li>🛠 Experienced in <strong>React, Next.js, Node.js</strong>, and real-time application development</li>
-  <li>🔐 Built and maintained <strong>secure, auth-heavy, production-grade platforms</strong></li>
-  <li>🚢 Comfortable taking products from <strong>design to deployment and long-term maintenance</strong></li>
+  <li>⚡ I build <strong>production-ready full-stack JavaScript systems</strong></li>
+  <li>🧠 I focus on <strong>performance, scalability, and clean code</strong></li>
+  <li>🛠 I specialize in <strong>React, Next.js, and Node.js</strong></li>
+  <li>🧩 Fun fact: I genuinely enjoy <strong>debugging hard problems</strong></li>
   <li>📍 Based in <strong>India</strong></li>
 </ul>
+
 
   </td>
 
