@@ -59,13 +59,12 @@
 
 <h4>💻 Languages & Frameworks</h4>
 <div style="
-  width:20px;
-  height:20px;
+  width:46px;
+  height:46px;
   background:red;
+  display:inline-block;
 ">
-  <img 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-  />
 </div>
+
 
 
