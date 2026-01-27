@@ -76,29 +76,48 @@
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
 </p>
 
-<!-- CLOUD & OTHERS -->
-<h4 style="color:#FACC15; margin-bottom:6px;">Cloud & Others</h4>
+<h4 style="color:#FACC15; margin-bottom:6px;">Libraries & Tooling</h4>
 
 <p>
-  <!-- skillicons-supported -->
-  <img src="https://skillicons.dev/icons?i=aws,vercel,git,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=redux,graphql,tailwind,materialui,chartjs&theme=dark" />
+</p>
 
-  <!-- DigitalOcean (manual SVG) -->
+<p>
+  <img src="https://skillicons.dev/icons?i=socketio&theme=dark" />
+
+  <!-- Zustand -->
   <img
-    src="https://www.vectorlogo.zone/logos/digitalocean/digitalocean-icon.svg"
+    src="https://raw.githubusercontent.com/pmndrs/zustand/main/docs/logo.svg"
     height="48"
     style="margin-left:6px;"
-    alt="DigitalOcean"
+    alt="Zustand"
   />
 
-  <!-- Render (manual SVG) -->
+  <!-- Zod -->
   <img
-    src="https://www.vectorlogo.zone/logos/render/render-icon.svg"
+    src="https://raw.githubusercontent.com/colinhacks/zod/master/logo.svg"
     height="48"
     style="margin-left:6px;"
-    alt="Render"
+    alt="Zod"
+  />
+
+  <!-- BullMQ -->
+  <img
+    src="https://www.vectorlogo.zone/logos/bullmq/bullmq-icon.svg"
+    height="48"
+    style="margin-left:6px;"
+    alt="BullMQ"
+  />
+
+  <!-- Framer Motion -->
+  <img
+    src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg"
+    height="48"
+    style="margin-left:6px;"
+    alt="Framer Motion"
   />
 </p>
+
 
 
 
