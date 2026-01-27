@@ -76,47 +76,14 @@
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,docker,kubernetes,nginx&theme=dark" />
 </p>
 
-<h4 style="color:#FACC15; margin-bottom:10px;">Libraries & Tooling</h4>
+<!-- LIBRARIES & TOOLING -->
+<h4 style="color:#FACC15; margin-bottom:6px;">Libraries & Tooling</h4>
 
 <p>
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://raw.githubusercontent.com/pmndrs/zustand/main/docs/logo.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://unpkg.com/simple-icons@v9/icons/zod.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons섭
-    icon/icons/materialui/materialui-original.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px; margin-right:6px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" height="36"/>
-  </span>
-
-  <span style="background:#0d1117; border:1px solid #FACC15; padding:8px; border-radius:8px;">
-    <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" height="36"/>
-  </span>
+  <img src="https://skillicons.dev/icons?i=redux,tailwind,materialui,graphql&theme=dark" />
 </p>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=socketio,apollo,framer,gsap&theme=dark" />
+</p>
+
