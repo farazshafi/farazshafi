@@ -26,8 +26,7 @@
 </p>
 
 
-
-<table>
+<table width="100%" cellspacing="0" cellpadding="0">
   <tr>
     <td width="60%" valign="top">
 
@@ -40,14 +39,18 @@
 - 🚢 Comfortable taking products from **design to deployment and long-term maintenance**  
 - 📍 Based in **India**
 
-<br/>
+    </td>
 
-<p align="center">
-  <img 
-    src="https://camo.githubusercontent.com/660e8839e806a7a23f61b155be2e078a1cbd67f33c65b38994f8318cbd9e50f6/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e676966"
-    width="450"
-    alt="Coding animation"
-  />
-</p>
+    <td width="40%" align="center" valign="middle">
+
+<img
+  src="https://camo.githubusercontent.com/660e8839e806a7a23f61b155be2e078a1cbd67f33c65b38994f8318cbd9e50f6/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e676966"
+  width="420"
+/>
+
+    </td>
+  </tr>
+</table>
+
 
 
