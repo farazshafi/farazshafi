@@ -120,7 +120,6 @@
 
 <table width="100%" cellspacing="0" cellpadding="14">
   <tr>
-    <!-- CODIE -->
     <td width="50%" valign="top">
       <h3>
         <a href="https://github.com/farazshafi/codie" target="_blank">
@@ -136,7 +135,6 @@
       </p>
     </td>
 
-    <!-- GADGEPING -->
   <td width="50%" valign="top">
       <h3>
         <a href="https://github.com/farazshafi/gadgepping" target="_blank">
