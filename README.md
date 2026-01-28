@@ -137,8 +137,8 @@
 
   <td width="50%" valign="top">
       <h3>
-        <a href="https://github.com/farazshafi/gadgepping" target="_blank">
-          🛒 Gadgepping
+        <a href="https://github.com/farazshafi/Progad" target="_blank">
+          🛒 Progad
         </a>
       </h3>
       <p>
