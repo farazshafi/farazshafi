@@ -115,6 +115,46 @@
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis&theme=dark" />
 </p>
 
+<!-- FEATURED PROJECTS -->
+<h2>🌟 FEATURED PROJECTS</h2>
+
+<table width="100%" cellspacing="0" cellpadding="14">
+  <tr>
+    <!-- CODIE -->
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/farazshafi/codie" target="_blank">
+          🚀 Codie
+        </a>
+      </h3>
+      <p>
+        A developer-focused platform for building, managing, and scaling
+        production-ready applications with clean architecture.
+      </p>
+      <p align="right">
+        <sub><strong>TypeScript · Next.js · Node.js</strong></sub>
+      </p>
+    </td>
+
+    <!-- GADGEPING -->
+  <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/farazshafi/gadgepping" target="_blank">
+          🛒 Gadgepping
+        </a>
+      </h3>
+      <p>
+        A high-performance e-commerce platform focused on scalability,
+        smooth UX, and modern full-stack practices.
+      </p>
+      <p align="right">
+        <sub><strong>React · Next.js · MongoDB</strong></sub>
+      </p>
+    </td>
+  </tr>
+</table>
+
+
 <h2>📊 GITHUB ANALYTICS</h2>
 
 <p align="center">
@@ -127,44 +167,6 @@
     height="170"
   />
 </p>
-
-<!-- FEATURED PROJECTS -->
-<h2>🌟 FEATURED PROJECTS</h2>
-
-<table width="100%" cellspacing="0" cellpadding="12">
-  <tr>
-    <!-- CODIE -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/farazshafi/codie" target="_blank">
-        <h3>🚀 Codie</h3>
-      </a>
-      <p>
-        A developer-focused platform built to streamline coding workflows,
-        improve productivity, and deliver clean, scalable solutions.
-      </p>
-      <p align="right">
-        <sub><strong>TypeScript · Next.js · Node.js</strong></sub>
-      </p>
-    </td>
-
-    <!-- GADGEPING -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/farazshafi/gadgepping" target="_blank">
-        <h3>🛒 Gadgepping</h3>
-      </a>
-      <p>
-        A modern e-commerce platform designed for performance,
-        scalability, and a seamless shopping experience.
-      </p>
-      <p align="right">
-        <sub><strong>React · Next.js · MongoDB</strong></sub>
-      </p>
-    </td>
-  </tr>
-</table>
-
-
-
 
 <h2>📈 CODE ACTIVITY</h2>
 
