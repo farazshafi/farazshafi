@@ -128,6 +128,55 @@
   />
 </p>
 
+<!-- FEATURED PROJECTS -->
+<h2>🌟 FEATURED PROJECTS</h2>
+
+<table width="100%" cellspacing="0" cellpadding="12">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Scalable SaaS Backend Platform</h3>
+      <p>
+        A production-grade backend system designed for real-world SaaS applications.
+        Built with scalability, performance, and reliability as first-class concerns.
+      </p>
+      <ul>
+        <li>🔐 JWT-based authentication & role-based access control</li>
+        <li>🚀 High-performance REST APIs with Node.js & Express</li>
+        <li>🧠 Data validation using Zod</li>
+        <li>📦 Redis caching for optimized response times</li>
+        <li>📊 Centralized logging & monitoring</li>
+      </ul>
+      <p>
+        <strong>Tech:</strong> Node.js, Express, MongoDB, Redis, Docker
+      </p>
+      <p>
+        🔗 <a href="https://github.com/farazshafi" target="_blank">View Repository</a>
+      </p>
+    </td>
+
+  <td width="50%" valign="top">
+      <h3>🛒 Full-Stack E-Commerce Platform</h3>
+      <p>
+        A modern, full-stack e-commerce application focused on performance and clean architecture.
+      </p>
+      <ul>
+        <li>⚛️ Server-side rendering with Next.js</li>
+        <li>🛍️ Cart, checkout, and order management</li>
+        <li>💳 Secure payment flow integration</li>
+        <li>📈 SEO-optimized product pages</li>
+        <li>🎨 Responsive UI with Tailwind CSS</li>
+      </ul>
+      <p>
+        <strong>Tech:</strong> Next.js, React, Node.js, MongoDB, Tailwind
+      </p>
+      <p>
+        🔗 <a href="https://github.com/farazshafi" target="_blank">View Repository</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+
 <h2>📈 CODE ACTIVITY</h2>
 
 <p align="center">
