@@ -131,29 +131,50 @@
 <!-- FEATURED PROJECTS -->
 <h2>🌟 FEATURED PROJECTS</h2>
 
-<ul>
-  <li>
-    <h3>
-      🔗 <a href="https://github.com/farazshafi/coodie" target="_blank">
-        Coodie
-      </a>
-    </h3>
-    <p>
-      A production-ready full-stack platform focused on clean architecture, scalability, and real-world performance.
-    </p>
-  </li>
+<table width="100%" cellspacing="0" cellpadding="12">
+  <tr>
 
-  <li>
-    <h3>
-      🔗 <a href="https://github.com/farazshafi/gadgepping" target="_blank">
-        Gadgepping
+    <!-- CODIE -->
+  <td width="50%" valign="top">
+      <a href="https://github.com/farazshafi/codie" target="_blank" style="text-decoration:none;">
+        <div style="
+          border:1px solid #2a2a2a;
+          border-radius:14px;
+          padding:20px;
+          height:100%;
+          background:rgba(250,204,21,0.05);
+        ">
+          <h3 style="color:#FACC15;">🚀 Codie</h3>
+          <p style="color:#d1d5db;">
+            A modern developer-focused platform built with clean architecture,
+            optimized performance, and scalable system design.
+          </p>
+        </div>
       </a>
-    </h3>
-    <p>
-      A modern full-stack e-commerce application with optimized performance and a smooth user experience.
-    </p>
-  </li>
-</ul>
+    </td>
+
+    <!-- GADGEPPING -->
+  <td width="50%" valign="top">
+      <a href="https://github.com/farazshafi/gadgepping" target="_blank" style="text-decoration:none;">
+        <div style="
+          border:1px solid #2a2a2a;
+          border-radius:14px;
+          padding:20px;
+          height:100%;
+          background:rgba(250,204,21,0.05);
+        ">
+          <h3 style="color:#FACC15;">🛒 Gadgepping</h3>
+          <p style="color:#d1d5db;">
+            A full-stack e-commerce platform focused on real-world workflows,
+            performance optimization, and seamless user experience.
+          </p>
+        </div>
+      </a>
+    </td>
+
+  </tr>
+</table>
+
 
 
 
