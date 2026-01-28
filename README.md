@@ -133,45 +133,33 @@
 
 <table width="100%" cellspacing="0" cellpadding="12">
   <tr>
-
     <!-- CODIE -->
-  <td width="50%" valign="top">
-      <a href="https://github.com/farazshafi/codie" target="_blank" style="text-decoration:none;">
-        <div style="
-          border:1px solid #2a2a2a;
-          border-radius:14px;
-          padding:20px;
-          height:100%;
-          background:rgba(250,204,21,0.05);
-        ">
-          <h3 style="color:#FACC15;">🚀 Codie</h3>
-          <p style="color:#d1d5db;">
-            A modern developer-focused platform built with clean architecture,
-            optimized performance, and scalable system design.
-          </p>
-        </div>
+    <td width="50%" valign="top">
+      <a href="https://github.com/farazshafi/codie" target="_blank">
+        <h3>🚀 Codie</h3>
       </a>
+      <p>
+        A developer-focused platform built to streamline coding workflows,
+        improve productivity, and deliver clean, scalable solutions.
+      </p>
+      <p align="right">
+        <sub><strong>TypeScript · Next.js · Node.js</strong></sub>
+      </p>
     </td>
 
-    <!-- GADGEPPING -->
-  <td width="50%" valign="top">
-      <a href="https://github.com/farazshafi/gadgepping" target="_blank" style="text-decoration:none;">
-        <div style="
-          border:1px solid #2a2a2a;
-          border-radius:14px;
-          padding:20px;
-          height:100%;
-          background:rgba(250,204,21,0.05);
-        ">
-          <h3 style="color:#FACC15;">🛒 Gadgepping</h3>
-          <p style="color:#d1d5db;">
-            A full-stack e-commerce platform focused on real-world workflows,
-            performance optimization, and seamless user experience.
-          </p>
-        </div>
+    <!-- GADGEPING -->
+    <td width="50%" valign="top">
+      <a href="https://github.com/farazshafi/gadgepping" target="_blank">
+        <h3>🛒 Gadgepping</h3>
       </a>
+      <p>
+        A modern e-commerce platform designed for performance,
+        scalability, and a seamless shopping experience.
+      </p>
+      <p align="right">
+        <sub><strong>React · Next.js · MongoDB</strong></sub>
+      </p>
     </td>
-
   </tr>
 </table>
 
